@@ -29,7 +29,7 @@ h1,h2,h3{font-family:'Zen Maru Gothic',sans-serif}
 </header>
 
 <section style="background:#DDF2FC;padding:64px 24px">
-<div style="max-width:1000px;margin:0 auto">
+<div style="max-width:1100px;margin:0 auto">
 <p style="margin:0;font-weight:700;color:#1F6E99;font-family:'Zen Maru Gothic',sans-serif">ESHA ONLINE</p>
 <h1 style="margin:4px 0 12px;font-size:clamp(30px,5vw,44px)">ESHA レッスンのきろく</h1>
 <p style="margin:0;font-size:17px;max-width:680px">毎週土曜の夜、Zoom でアーニー先生とヒーホーに会えるオンライン英会話。毎回ちがうテーマで、お話・歌・ゲーム・お絵かきを楽しみます。</p>
@@ -38,20 +38,20 @@ h1,h2,h3{font-family:'Zen Maru Gothic',sans-serif}
 </section>
 
 <section style="padding:64px 24px">
-<div style="max-width:1000px;margin:0 auto">
+<div style="max-width:1100px;margin:0 auto">
 <h2 style="margin:0 0 8px;font-size:clamp(24px,4vw,32px)">これからのレッスン</h2>
 <p style="margin:0 0 28px;color:#4B5563">アーニー先生が「お絵かきをしよう！」という日もあるので、ペンやクレヨンを用意して参加してね。</p>
-<ul id="upcoming" style="margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px"></ul>
+<ul id="upcoming" style="margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px"></ul>
 <div id="offnote"></div>
 <noscript><p>レッスン予定を表示するには、JavaScriptを有効にしてください。</p></noscript>
 </div>
 </section>
 
-<section style="background:#fff;padding:64px 24px">
-<div style="max-width:1000px;margin:0 auto">
+<section style="background:#FFF9EC;padding:64px 24px">
+<div style="max-width:1100px;margin:0 auto">
 <h2 style="margin:0 0 8px;font-size:clamp(24px,4vw,32px)">これまでのレッスン</h2>
 <p style="margin:0 0 24px;color:#4B5563">終わったレッスンは、ここに記録として残していきます（新しい順）。</p>
-<div id="past" style="display:flex;flex-direction:column;gap:12px"></div>
+<div id="past"></div>
 </div>
 </section>
 
@@ -67,31 +67,49 @@ h1,h2,h3{font-family:'Zen Maru Gothic',sans-serif}
 </div>
 <script>
 (function(){
-var COLS=["#FF6B5B","#3DA9E0","#3CC6A0","#8E6CE0"];
+var TAG={
+ "実験":{bg:"#DFF7EF",fg:"#1F7A60",icon:'<path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 15h9"/>'},
+ "季節・行事":{bg:"#FFE6EE",fg:"#B32A5E",icon:'<path d="M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17l-6.1 3.4 1.5-6.8L2.2 9l6.9-.7z"/>'},
+ "家族・わたし":{bg:"#FFF4CC",fg:"#8A6000",icon:'<path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/>'},
+ "自然・いきもの":{bg:"#E3F3E0",fg:"#2F6B22",icon:'<path d="M5 21c0-9 5-15 15-16-1 10-7 15-15 16z"/><path d="M5 21l8-8"/>'},
+ "ことば・文法":{bg:"#DDF2FC",fg:"#1F6E99",icon:'<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/>'},
+ "ゲーム・あそび":{bg:"#EEE8FC",fg:"#6A48C2",icon:'<rect x="3" y="7" width="18" height="11" rx="4"/><path d="M8 11v3M6.5 12.5h3M15 12h.01M17.5 13.5h.01"/>'}
+};
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
-function jp(d){var p=d.split("-");return Number(p[0])+"年"+Number(p[1])+"月"+Number(p[2])+"日（土）";}
 function md(d){var p=d.split("-");return Number(p[1])+"月"+Number(p[2])+"日（土）";}
+function cover(e){
+ var t=TAG[e.tag]||TAG["ゲーム・あそび"];
+ if(e.image){return '<img src="'+esc(e.image)+'" alt="" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block">';}
+ return '<div aria-hidden="true" style="aspect-ratio:16/9;background:'+t.bg+';display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:16px;text-align:center">'+
+  '<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="'+t.fg+'" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+t.icon+'</svg>'+
+  '<span style="font-family:\'Zen Maru Gothic\',sans-serif;font-weight:900;font-size:22px;line-height:1.25;color:#1E2A4A">'+esc(e.theme)+'</span></div>';
+}
+function card(e,time){
+ var t=TAG[e.tag]||TAG["ゲーム・あそび"];
+ return '<article style="background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 2px 10px rgba(30,42,74,0.08);display:flex;flex-direction:column">'+cover(e)+
+ '<div style="padding:16px 18px 20px">'+
+ '<p style="margin:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px"><span style="color:#4B5563;font-weight:700">'+md(e.date)+(time?' 19:15〜':'')+'</span>'+
+ '<span style="background:'+t.bg+';color:'+t.fg+';font-weight:700;padding:2px 10px;border-radius:999px">'+esc(e.tag||"")+'</span></p>'+
+ '<h3 style="margin:8px 0 6px;font-size:19px;line-height:1.4">'+esc(e.theme)+'</h3>'+
+ '<p style="margin:0;font-size:14px;line-height:1.8">'+esc(e.desc)+'</p></div></article>';
+}
 var today=new Date(Date.now()+9*3600000).toISOString().slice(0,10);
 fetch("data/lessons.json").then(function(r){return r.json();}).then(function(data){
  var L=data.lessons.slice().sort(function(a,b){return a.date<b.date?-1:1;});
  var future=L.filter(function(e){return e.date>=today;});
  var shown=[],offs=[],n=0;
  future.forEach(function(e){ if(n>=4) return; if(e.off){offs.push(e);} else {shown.push(e);n++;} });
- document.getElementById("upcoming").innerHTML=shown.map(function(e,i){
-  return '<li style="background:#fff;border-radius:24px;padding:24px;border-top:10px solid '+COLS[i%4]+';list-style:none">'+
-  '<p style="margin:0;font-size:14px;font-weight:700;color:#4B5563">'+md(e.date)+' 19:15〜19:55</p>'+
-  '<h3 style="margin:4px 0 8px;font-size:22px">'+esc(e.theme)+'</h3>'+
-  '<p style="margin:0;font-size:15px">'+esc(e.desc)+'</p></li>';}).join("") || '<li style="list-style:none">次のレッスン予定は近日公開します。</li>';
+ var up=document.getElementById("upcoming");
+ up.innerHTML=shown.map(function(e){return '<li style="list-style:none;display:flex">'+card(e,true)+'</li>';}).join("") || '<li style="list-style:none">次のレッスン予定は近日公開します。</li>';
  if(offs.length){document.getElementById("offnote").innerHTML='<div style="margin-top:24px;background:#fff;border-radius:20px;padding:20px 24px"><p style="margin:0;font-weight:700">お休みのお知らせ</p><p style="margin:4px 0 0;font-size:15px">'+offs.map(function(e){return md(e.date)+(e.reason?"（"+esc(e.reason)+"）":"");}).join("・")+' はお休みです。</p></div>';}
  var past=L.filter(function(e){return e.date<today && !e.off;}).reverse();
  var groups={},order=[];
  past.forEach(function(e){var k=e.date.slice(0,7);if(!groups[k]){groups[k]=[];order.push(k);}groups[k].push(e);});
  document.getElementById("past").innerHTML=order.map(function(k,gi){
   var p=k.split("-");
-  return '<details'+(gi===0?' open':'')+' style="background:#FFF9EC;border-radius:16px;padding:16px 20px">'+
-  '<summary style="cursor:pointer;font-weight:700;font-size:17px">'+Number(p[0])+'年'+Number(p[1])+'月（'+groups[k].length+'回）</summary>'+
-  '<ul style="margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:10px">'+groups[k].map(function(e){
-   return '<li style="list-style:none;background:#fff;border-radius:12px;padding:12px 16px"><span style="font-size:13px;color:#4B5563">'+md(e.date)+'</span><br><strong>'+esc(e.theme)+'</strong><br><span style="font-size:14px">'+esc(e.desc)+'</span></li>';}).join("")+'</ul></details>';}).join("");
+  return '<details'+(gi<2?' open':'')+' style="border-top:2px solid #F1EBDD;padding:16px 0">'+
+  '<summary style="cursor:pointer;font-family:\'Zen Maru Gothic\',sans-serif;font-weight:900;font-size:20px">'+Number(p[0])+'年'+Number(p[1])+'月のレッスン<span style="font-size:14px;font-weight:500;color:#4B5563">（'+groups[k].length+'回）</span></summary>'+
+  '<div style="margin-top:16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px">'+groups[k].map(function(e){return card(e,false);}).join("")+'</div></details>';}).join("");
 }).catch(function(){document.getElementById("upcoming").innerHTML='<li style="list-style:none">予定を読み込めませんでした。時間をおいてもう一度開いてください。</li>';});
 })();
 </script>
