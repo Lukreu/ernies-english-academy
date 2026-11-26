@@ -1,0 +1,445 @@
+{
+ "note": "ESHAのレッスン予定と記録。毎月、翌月分を追加する。off=trueはお休み。",
+ "lessons": [
+  {
+   "date": "2025-01-04",
+   "off": true,
+   "reason": "お休み"
+  },
+  {
+   "date": "2025-01-11",
+   "theme": "2025 New Year Fun!!",
+   "desc": "新年の目標を考えて、今年もいろいろなことにチャレンジしよう！"
+  },
+  {
+   "date": "2025-01-18",
+   "theme": "These are my gloves",
+   "desc": "片方だけ見つからない手袋を、みんなで探そう。"
+  },
+  {
+   "date": "2025-01-25",
+   "theme": "Snowflake Life Cycle",
+   "desc": "雪の結晶はひとつひとつ形がちがう。どうしてそんな形になるのかな？"
+  },
+  {
+   "date": "2025-02-01",
+   "theme": "How are you feeling?",
+   "desc": "今の気持ちを「I feel ～」で言ってみよう。"
+  },
+  {
+   "date": "2025-02-08",
+   "theme": "Heart Animals Crafts",
+   "desc": "バレンタインにちなんで、ハートの形で動物を作る工作。"
+  },
+  {
+   "date": "2025-02-15",
+   "theme": "Stretch a Sentence",
+   "desc": "「だれが・どこで・いつ・なぜ・なにを」を組み立てて、文をのばしてみよう。"
+  },
+  {
+   "date": "2025-02-22",
+   "theme": "BALLOON EXPERIMENT",
+   "desc": "風船を使った実験。"
+  },
+  {
+   "date": "2025-03-01",
+   "theme": "Short and Long Vowels",
+   "desc": "a・e・i・o・u の音を中心に、発音の練習をたくさんするよ。"
+  },
+  {
+   "date": "2025-03-08",
+   "theme": "All about me!!",
+   "desc": "自分の好きなものについて、話したり答えたりしよう。"
+  },
+  {
+   "date": "2025-03-15",
+   "theme": "Whose dog is it?",
+   "desc": "「ぼくの」「きみの」を使って、犬の持ち主をたずねよう。"
+  },
+  {
+   "date": "2025-03-22",
+   "theme": "SALT EXPERIMENT",
+   "desc": "塩と水や氷を使って、いろいろな実験をするよ。"
+  },
+  {
+   "date": "2025-03-29",
+   "off": true,
+   "reason": "お休み"
+  },
+  {
+   "date": "2025-04-05",
+   "theme": "Easter Fun!!",
+   "desc": "春の訪れをお祝いして、みんなでイースターを楽しもう。"
+  },
+  {
+   "date": "2025-04-12",
+   "theme": "go home / go to school",
+   "desc": "「～に行く」の言い方を、go を使ってたくさん練習。"
+  },
+  {
+   "date": "2025-04-19",
+   "theme": "Hair make up",
+   "desc": "髪の毛を1本ずつ描いて、どんなヘアスタイルにするか考えよう。"
+  },
+  {
+   "date": "2025-04-26",
+   "theme": "What am I ??",
+   "desc": "「わたしはなんでしょう？」よく聞いて答えを考えるクイズ。"
+  },
+  {
+   "date": "2025-05-10",
+   "theme": "Thank You Mom!",
+   "desc": "ママへのメッセージを作って、ありがとうを伝えよう。"
+  },
+  {
+   "date": "2025-05-17",
+   "theme": "big bigger biggest",
+   "desc": "ものの大きさをくらべてみよう。"
+  },
+  {
+   "date": "2025-05-24",
+   "theme": "Water Experiments vol.2",
+   "desc": "ストロー・風船・水を使った実験。何が起こるかな？"
+  },
+  {
+   "date": "2025-05-31",
+   "theme": "My Daily Tasks",
+   "desc": "朝から寝るまでにすることを考えて、デイリーチャートを作ろう。"
+  },
+  {
+   "date": "2025-06-07",
+   "off": true,
+   "reason": "お休み"
+  },
+  {
+   "date": "2025-06-14",
+   "off": true,
+   "reason": "お休み"
+  },
+  {
+   "date": "2025-06-21",
+   "theme": "Insects",
+   "desc": "虫たちの名前や特ちょうを調べよう。"
+  },
+  {
+   "date": "2025-06-28",
+   "theme": "Let's describe...!",
+   "desc": "動物の気持ちや動きを、ことばでどう伝えるか考えよう。"
+  },
+  {
+   "date": "2025-08-02",
+   "theme": "I love summer!",
+   "desc": "暑い日が続くけど夏が大好き！ その気持ちを英語で話そう。"
+  },
+  {
+   "date": "2025-08-09",
+   "off": true,
+   "reason": "夏休み"
+  },
+  {
+   "date": "2025-08-16",
+   "off": true,
+   "reason": "夏休み"
+  },
+  {
+   "date": "2025-08-23",
+   "theme": "Where did you go?",
+   "desc": "どこに行った？だれと何をした？ 英語で伝えよう。"
+  },
+  {
+   "date": "2025-08-30",
+   "theme": "10 Golden Rules",
+   "desc": "身の回りのルールや決まりごとを、英語で説明しよう。"
+  },
+  {
+   "date": "2025-09-06",
+   "theme": "Animal Sound Quiz",
+   "desc": "鳴き声だけで、どの動物か当てられるかな？"
+  },
+  {
+   "date": "2025-09-13",
+   "theme": "Color Experiment",
+   "desc": "自分だけのオリジナルの色を作ってみよう。"
+  },
+  {
+   "date": "2025-09-20",
+   "theme": "Conversation Relay",
+   "desc": "会話をリレーでつないで、たくさん質問しよう。"
+  },
+  {
+   "date": "2025-09-27",
+   "theme": "The Moon",
+   "desc": "月の形や光が変わるようすを観察しよう。"
+  },
+  {
+   "date": "2025-10-04",
+   "theme": "Drawing Time!!",
+   "desc": "お話に合わせて絵を描こう。"
+  },
+  {
+   "date": "2025-10-11",
+   "theme": "IN, ON, UNDER...",
+   "desc": "ものがどこにあるかを英語で伝える練習。"
+  },
+  {
+   "date": "2025-10-18",
+   "theme": "Simple STEM Activities",
+   "desc": "身近なもので、みんなでタワーやビルを作ってみよう。"
+  },
+  {
+   "date": "2025-10-25",
+   "theme": "Fun! Game! Fun!",
+   "desc": "いろいろなゲームで楽しもう！"
+  },
+  {
+   "date": "2025-11-01",
+   "theme": "Read stories",
+   "desc": "みんなでお話を声に出して読もう。どこまで読めるかな？"
+  },
+  {
+   "date": "2025-11-08",
+   "theme": "Affirmation Poster",
+   "desc": "自分をほめる言葉を書いたポスターを作ろう。"
+  },
+  {
+   "date": "2025-11-15",
+   "theme": "This is a dog. / These are dogs.",
+   "desc": "1つと2つ以上で、言い方がどう変わるか学ぼう。"
+  },
+  {
+   "date": "2025-11-22",
+   "theme": "Thankful Heart",
+   "desc": "だれに、どんな「ありがとう」を伝えるか考えよう。"
+  },
+  {
+   "date": "2025-11-29",
+   "off": true,
+   "reason": "お休み"
+  },
+  {
+   "date": "2025-12-06",
+   "theme": "Story Time",
+   "desc": "知っている物語を絵にして表現しよう。"
+  },
+  {
+   "date": "2025-12-13",
+   "theme": "Let's have a conversation!",
+   "desc": "飼ってみたいペットや得意なことを英語で話そう。"
+  },
+  {
+   "date": "2025-12-20",
+   "theme": "CHRISTMAS BINGO!!",
+   "desc": "クリスマスの英単語でビンゴ！"
+  },
+  {
+   "date": "2025-12-27",
+   "off": true,
+   "reason": "冬休み"
+  },
+  {
+   "date": "2026-01-03",
+   "off": true,
+   "reason": "冬休み"
+  },
+  {
+   "date": "2026-01-10",
+   "theme": "2026 I will ~.",
+   "desc": "2026年の目標を、みんなでシェアしよう。"
+  },
+  {
+   "date": "2026-01-17",
+   "theme": "Battery Experience",
+   "desc": "電池の実験。スプーンや水を使うとどうなるかな？"
+  },
+  {
+   "date": "2026-01-24",
+   "theme": "Word Families",
+   "desc": "知っている単語を、音のなかまでグループ分けしよう。"
+  },
+  {
+   "date": "2026-01-31",
+   "theme": "Winter",
+   "desc": "冬について英語で文を書いてみよう。"
+  },
+  {
+   "date": "2026-04-04",
+   "theme": "Let's enjoy Easter!",
+   "desc": "イースターといえば何？ アクションゲームでもりあがろう！"
+  },
+  {
+   "date": "2026-04-11",
+   "theme": "2026 Back to School",
+   "desc": "新学年おめでとう！ 学校で使う物や言葉でビンゴ。"
+  },
+  {
+   "date": "2026-04-18",
+   "theme": "Good Manners",
+   "desc": "良い行動ってどんなこと？ みんなで考えよう。"
+  },
+  {
+   "date": "2026-04-25",
+   "theme": "Let's enjoy Games!",
+   "desc": "ゲームやアクティビティを楽しもう！"
+  },
+  {
+   "date": "2026-05-02",
+   "off": true,
+   "reason": "お休み"
+  },
+  {
+   "date": "2026-05-09",
+   "theme": "You are the Best Mom!!",
+   "desc": "ママの好きなものを、ママに聞いてみよう。"
+  },
+  {
+   "date": "2026-05-16",
+   "theme": "Nature Words",
+   "desc": "山・森・木・草・水など、自然のことばを英語で言おう。"
+  },
+  {
+   "date": "2026-05-23",
+   "theme": "Cooking Recipe",
+   "desc": "カレーライスの作り方を、みんなでレシピにしよう。"
+  },
+  {
+   "date": "2026-05-30",
+   "theme": "AM, IS, ARE!",
+   "desc": "よく使う言葉を出し合って、表にまとめよう。"
+  },
+  {
+   "date": "2026-06-06",
+   "theme": "Let's sing Do-Re-Mi !",
+   "desc": "ドレミの歌をみんなで歌って、発声の練習。"
+  },
+  {
+   "date": "2026-06-13",
+   "theme": "Colorful Food Garden",
+   "desc": "野菜や果物がいっぱいの庭を作ろう。"
+  },
+  {
+   "date": "2026-06-20",
+   "theme": "You are the Best Dad !!",
+   "desc": "パパの好きなものを考えて、パパに質問してみよう。"
+  },
+  {
+   "date": "2026-06-27",
+   "theme": "What Makes the Wind Blow?",
+   "desc": "風はどこから吹いてくる？ 見えないのに感じるのはなぜ？"
+  },
+  {
+   "date": "2026-08-01",
+   "theme": "Beach Fun",
+   "desc": "海大好き！ 海に何を持っていく？"
+  },
+  {
+   "date": "2026-08-08",
+   "off": true,
+   "reason": "夏休み"
+  },
+  {
+   "date": "2026-08-15",
+   "off": true,
+   "reason": "夏休み"
+  },
+  {
+   "date": "2026-08-22",
+   "theme": "Nature Walk",
+   "desc": "山・川・海には何がある？ 探してみよう！"
+  },
+  {
+   "date": "2026-08-29",
+   "theme": "PREPOSITIONS",
+   "desc": "グミのクマさんはどこにいる？ 場所を英語で教えてね。"
+  },
+  {
+   "date": "2026-09-05",
+   "off": true,
+   "reason": "お休み"
+  },
+  {
+   "date": "2026-09-12",
+   "theme": "Taste of Foods",
+   "desc": "レモンはすっぱい！ 食べ物の味を英語で表現しよう。"
+  },
+  {
+   "date": "2026-09-19",
+   "theme": "Word Chain Fun",
+   "desc": "英語しりとりで、知っている単語を出し合おう。"
+  },
+  {
+   "date": "2026-09-26",
+   "theme": "What can we see in the SKY",
+   "desc": "空を見上げたら何が見える？"
+  },
+  {
+   "date": "2026-10-03",
+   "theme": "Pet Animals",
+   "desc": "ペットになる動物は？ どんなペットを飼いたい？"
+  },
+  {
+   "date": "2026-10-10",
+   "theme": "Energy Bites",
+   "desc": "好きなおやつを話し合って、ヘルシーなエナジーボールを作ろう。"
+  },
+  {
+   "date": "2026-10-17",
+   "theme": "Simple Sentences",
+   "desc": "単語を並べて、文を作ることにチャレンジ。"
+  },
+  {
+   "date": "2026-10-24",
+   "theme": "Sink or Float",
+   "desc": "水の実験。浮くものと沈むもののちがいは？"
+  },
+  {
+   "date": "2026-10-31",
+   "off": true,
+   "reason": "お休み"
+  },
+  {
+   "date": "2026-11-07",
+   "theme": "My Family",
+   "desc": "家族は何人？ パパやママの好きなものを聞いてみよう。"
+  },
+  {
+   "date": "2026-11-14",
+   "theme": "FALL BINGO FUN",
+   "desc": "秋のことばを考えて、絵やスペルでビンゴ！"
+  },
+  {
+   "date": "2026-11-21",
+   "theme": "I am Thankful for…",
+   "desc": "だれに、どこに、何に感謝しているか話そう。"
+  },
+  {
+   "date": "2026-11-28",
+   "theme": "Things in My House",
+   "desc": "おうちの中には何がある？ 英語で言えるかな？"
+  },
+  {
+   "date": "2026-12-05",
+   "theme": "FINGER GYM EXERCISES",
+   "desc": "ゆびの体そうをするよ！ ゆびの運動で頭もスッキリ！"
+  },
+  {
+   "date": "2026-12-12",
+   "theme": "Penguin World",
+   "desc": "寒いところが好きなペンギンさん。何を食べるのかな？とべるのかなぁ？"
+  },
+  {
+   "date": "2026-12-19",
+   "theme": "2026 Christmas Fun!!",
+   "desc": "クリスマスのお話や歌で楽しもう！ サンタさんに何をお願いする？"
+  },
+  {
+   "date": "2026-12-26",
+   "off": true,
+   "reason": "冬休み"
+  },
+  {
+   "date": "2027-01-02",
+   "off": true,
+   "reason": "冬休み"
+  }
+ ]
+}

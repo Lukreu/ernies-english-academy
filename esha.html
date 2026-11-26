@@ -41,32 +41,9 @@ h1,h2,h3{font-family:'Zen Maru Gothic',sans-serif}
 <div style="max-width:1000px;margin:0 auto">
 <h2 style="margin:0 0 8px;font-size:clamp(24px,4vw,32px)">これからのレッスン</h2>
 <p style="margin:0 0 28px;color:#4B5563">アーニー先生が「お絵かきをしよう！」という日もあるので、ペンやクレヨンを用意して参加してね。</p>
-<ul style="margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px">
-<li style="background:#fff;border-radius:24px;padding:24px;border-top:10px solid #FF6B5B;list-style:none">
-<p style="margin:0;font-size:14px;font-weight:700;color:#4B5563">11月28日（土） 19:15〜19:55</p>
-<h3 style="margin:4px 0 8px;font-size:22px">Things in My House</h3>
-<p style="margin:0;font-size:15px">おうちの中には何がある？ 英語で言えるかな？</p>
-</li>
-<li style="background:#fff;border-radius:24px;padding:24px;border-top:10px solid #3DA9E0;list-style:none">
-<p style="margin:0;font-size:14px;font-weight:700;color:#4B5563">12月5日（土） 19:15〜19:55</p>
-<h3 style="margin:4px 0 8px;font-size:22px">FINGER GYM EXERCISES</h3>
-<p style="margin:0;font-size:15px">ゆびの体そうをするよ！ ゆびの運動で頭もスッキリ！</p>
-</li>
-<li style="background:#fff;border-radius:24px;padding:24px;border-top:10px solid #3CC6A0;list-style:none">
-<p style="margin:0;font-size:14px;font-weight:700;color:#4B5563">12月12日（土） 19:15〜19:55</p>
-<h3 style="margin:4px 0 8px;font-size:22px">Penguin World</h3>
-<p style="margin:0;font-size:15px">寒いところが好きなペンギンさん。何を食べるのかな？とべるのかなぁ？</p>
-</li>
-<li style="background:#fff;border-radius:24px;padding:24px;border-top:10px solid #8E6CE0;list-style:none">
-<p style="margin:0;font-size:14px;font-weight:700;color:#4B5563">12月19日（土） 19:15〜19:55</p>
-<h3 style="margin:4px 0 8px;font-size:22px">2026 Christmas Fun!!</h3>
-<p style="margin:0;font-size:15px">クリスマスのお話や歌で楽しもう！ サンタさんに何をお願いする？教えてね！</p>
-</li>
-</ul>
-<div style="margin-top:24px;background:#fff;border-radius:20px;padding:20px 24px">
-<p style="margin:0;font-weight:700">冬休みのお知らせ</p>
-<p style="margin:4px 0 0;font-size:15px">12月26日（土）・1月2日（土）は冬休みのため、お休みです。</p>
-</div>
+<ul id="upcoming" style="margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px"></ul>
+<div id="offnote"></div>
+<noscript><p>レッスン予定を表示するには、JavaScriptを有効にしてください。</p></noscript>
 </div>
 </section>
 
@@ -74,9 +51,7 @@ h1,h2,h3{font-family:'Zen Maru Gothic',sans-serif}
 <div style="max-width:1000px;margin:0 auto">
 <h2 style="margin:0 0 8px;font-size:clamp(24px,4vw,32px)">これまでのレッスン</h2>
 <p style="margin:0 0 24px;color:#4B5563">終わったレッスンは、ここに記録として残していきます（新しい順）。</p>
-<ul id="past" style="margin:0;padding:0;display:flex;flex-direction:column;gap:12px">
-<li style="list-style:none;border:2px dashed #CBD5E1;border-radius:16px;padding:16px 20px;color:#4B5563;font-size:15px">[これまでのテーマを、アメブロの過去記事から移して載せます]</li>
-</ul>
+<div id="past" style="display:flex;flex-direction:column;gap:12px"></div>
 </div>
 </section>
 
@@ -90,5 +65,35 @@ h1,h2,h3{font-family:'Zen Maru Gothic',sans-serif}
 
 <footer style="background:#1E2A4A;color:#E5E7EB;padding:24px;text-align:center;font-size:13px">© Ernie's English Academy</footer>
 </div>
+<script>
+(function(){
+var COLS=["#FF6B5B","#3DA9E0","#3CC6A0","#8E6CE0"];
+function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
+function jp(d){var p=d.split("-");return Number(p[0])+"年"+Number(p[1])+"月"+Number(p[2])+"日（土）";}
+function md(d){var p=d.split("-");return Number(p[1])+"月"+Number(p[2])+"日（土）";}
+var today=new Date(Date.now()+9*3600000).toISOString().slice(0,10);
+fetch("data/lessons.json").then(function(r){return r.json();}).then(function(data){
+ var L=data.lessons.slice().sort(function(a,b){return a.date<b.date?-1:1;});
+ var future=L.filter(function(e){return e.date>=today;});
+ var shown=[],offs=[],n=0;
+ future.forEach(function(e){ if(n>=4) return; if(e.off){offs.push(e);} else {shown.push(e);n++;} });
+ document.getElementById("upcoming").innerHTML=shown.map(function(e,i){
+  return '<li style="background:#fff;border-radius:24px;padding:24px;border-top:10px solid '+COLS[i%4]+';list-style:none">'+
+  '<p style="margin:0;font-size:14px;font-weight:700;color:#4B5563">'+md(e.date)+' 19:15〜19:55</p>'+
+  '<h3 style="margin:4px 0 8px;font-size:22px">'+esc(e.theme)+'</h3>'+
+  '<p style="margin:0;font-size:15px">'+esc(e.desc)+'</p></li>';}).join("") || '<li style="list-style:none">次のレッスン予定は近日公開します。</li>';
+ if(offs.length){document.getElementById("offnote").innerHTML='<div style="margin-top:24px;background:#fff;border-radius:20px;padding:20px 24px"><p style="margin:0;font-weight:700">お休みのお知らせ</p><p style="margin:4px 0 0;font-size:15px">'+offs.map(function(e){return md(e.date)+(e.reason?"（"+esc(e.reason)+"）":"");}).join("・")+' はお休みです。</p></div>';}
+ var past=L.filter(function(e){return e.date<today && !e.off;}).reverse();
+ var groups={},order=[];
+ past.forEach(function(e){var k=e.date.slice(0,7);if(!groups[k]){groups[k]=[];order.push(k);}groups[k].push(e);});
+ document.getElementById("past").innerHTML=order.map(function(k,gi){
+  var p=k.split("-");
+  return '<details'+(gi===0?' open':'')+' style="background:#FFF9EC;border-radius:16px;padding:16px 20px">'+
+  '<summary style="cursor:pointer;font-weight:700;font-size:17px">'+Number(p[0])+'年'+Number(p[1])+'月（'+groups[k].length+'回）</summary>'+
+  '<ul style="margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:10px">'+groups[k].map(function(e){
+   return '<li style="list-style:none;background:#fff;border-radius:12px;padding:12px 16px"><span style="font-size:13px;color:#4B5563">'+md(e.date)+'</span><br><strong>'+esc(e.theme)+'</strong><br><span style="font-size:14px">'+esc(e.desc)+'</span></li>';}).join("")+'</ul></details>';}).join("");
+}).catch(function(){document.getElementById("upcoming").innerHTML='<li style="list-style:none">予定を読み込めませんでした。時間をおいてもう一度開いてください。</li>';});
+})();
+</script>
 </body>
 </html>
