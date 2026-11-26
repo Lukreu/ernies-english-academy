@@ -12,54 +12,93 @@ body{margin:0;background:#FFF9EC}
 a{color:#1E2A4A}a:hover{color:#0F1730}
 h1,h2,h3{font-family:'Zen Maru Gothic',sans-serif}
 </style>
-<style>*{box-sizing:border-box} img{max-width:100%}</style>
+<style>*{box-sizing:border-box} img{max-width:100%} .tagbtn{cursor:pointer;border:2px solid transparent;font:inherit;font-weight:700;font-size:14px;padding:8px 16px;border-radius:999px} .tagbtn[aria-pressed="true"]{border-color:#1E2A4A} summary::-webkit-details-marker{display:none}</style>
 </head>
 <body>
-<div style="font-family:'Noto Sans JP',sans-serif;color:#1E2A4A;background:#FFF9EC;line-height:1.8;min-height:100vh">
+<div style="font-family:'Noto Sans JP',sans-serif;color:#1E2A4A;background:#FFF9EC;line-height:1.8">
 <div aria-hidden="true" style="display:flex;height:8px"><div style="flex:1;background:#FF6B5B"></div><div style="flex:1;background:#FFC93C"></div><div style="flex:1;background:#3CC6A0"></div><div style="flex:1;background:#3DA9E0"></div><div style="flex:1;background:#8E6CE0"></div></div>
 <header style="background:#fff">
-<div style="max-width:1200px;margin:0 auto;padding:16px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
-<a href="./" style="text-decoration:none;font-family:'Zen Maru Gothic',sans-serif;font-weight:900;font-size:24px"><span style="color:#E5483A">Ernie's</span> <span style="color:#1E2A4A">English Academy</span></a>
-<nav aria-label="メインメニュー" style="display:flex;flex-wrap:wrap;gap:20px;font-size:15px;font-weight:500">
-<a href="./" style="text-decoration:none">トップ</a>
-<a href="./#classes" style="text-decoration:none">クラスと料金</a>
-<a href="./#contact" style="text-decoration:none">お問い合わせ</a>
+<div style="max-width:1100px;margin:0 auto;padding:16px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px">
+<a href="./" style="text-decoration:none;font-family:'Zen Maru Gothic',sans-serif;font-weight:900;font-size:22px"><span style="color:#E5483A">Ernie's</span> <span style="color:#1E2A4A">English Academy</span></a>
+<nav aria-label="メインメニュー" style="display:flex;flex-wrap:wrap;gap:18px;font-size:15px;font-weight:500">
+<a href="#next" style="text-decoration:none">次のレッスン</a>
+<a href="#archive" style="text-decoration:none">これまでのレッスン</a>
+<a href="#join" style="text-decoration:none">参加のしかた</a>
+<a href="./" style="text-decoration:none">教室（柏の葉）</a>
 </nav>
+<a href="#join" style="background:#FFC93C;color:#1E2A4A;font-weight:700;text-decoration:none;padding:10px 22px;border-radius:999px;font-size:15px">無料で体験する</a>
 </div>
 </header>
 
-<section style="background:#DDF2FC;padding:64px 24px">
-<div style="max-width:1100px;margin:0 auto">
-<p style="margin:0;font-weight:700;color:#1F6E99;font-family:'Zen Maru Gothic',sans-serif">ESHA ONLINE</p>
-<h1 style="margin:4px 0 12px;font-size:clamp(30px,5vw,44px)">ESHA レッスンのきろく</h1>
-<p style="margin:0;font-size:17px;max-width:680px">毎週土曜の夜、Zoom でアーニー先生とヒーホーに会えるオンライン英会話。毎回ちがうテーマで、お話・歌・ゲーム・お絵かきを楽しみます。</p>
-<p style="margin:16px 0 0;font-weight:700">毎週土曜 19:15〜19:55｜月3,980円｜初回1回 無料体験</p>
+<section style="background:#DDF2FC;padding:56px 24px 72px;position:relative;overflow:hidden">
+<div aria-hidden="true" style="position:absolute;top:30px;right:8%;width:48px;height:48px;border-radius:50%;background:#FFC93C"></div>
+<div aria-hidden="true" style="position:absolute;bottom:40px;left:6%;width:26px;height:26px;border-radius:8px;background:#FF8FB1;transform:rotate(20deg)"></div>
+<div style="max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;gap:40px;align-items:center;position:relative">
+<div style="flex:1 1 320px;min-width:0">
+<p style="margin:0 0 12px;display:inline-block;background:#fff;font-weight:700;font-size:14px;padding:6px 14px;border-radius:999px">ESHA｜おうちから参加できるオンライン英会話</p>
+<h1 style="margin:0;font-size:clamp(30px,5.5vw,48px);line-height:1.35;font-weight:900">毎週土曜の夜は、<br>おうちが<span style="color:#E5483A">英語の遊び場</span>に。</h1>
+<p style="margin:20px 0 0;font-size:17px;max-width:560px">Zoom でアーニー先生とヒーホーに会える40分。実験、工作、ゲーム、歌、お絵かき。毎週ちがうテーマで、「次は何をやるの？」が楽しみになるレッスンです。</p>
+<p id="stat" style="margin:20px 0 0;display:flex;flex-wrap:wrap;gap:12px"></p>
+<div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:28px">
+<a href="#join" style="background:#FFC93C;color:#1E2A4A;font-weight:700;text-decoration:none;padding:15px 30px;border-radius:999px;font-size:17px;box-shadow:0 4px 0 #D9A51F">初回1回 無料で体験する</a>
+<a href="#archive" style="background:#fff;color:#1E2A4A;font-weight:700;text-decoration:none;padding:15px 30px;border-radius:999px;font-size:17px;box-shadow:0 4px 0 #B9DDEF">どんなレッスン？</a>
+</div>
+</div>
+<div style="flex:1 1 320px;min-width:0;position:relative;padding:20px 0">
+<div role="img" aria-label="写真の場所" style="background:#fff;border:3px dashed #3DA9E0;border-radius:32px;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;padding:28px;text-align:center;font-size:14px"><span><strong>写真</strong><br>Zoom画面のアーニー先生とヒーホー（子どもの画面は入れない）</span></div>
+<div aria-hidden="true" style="position:absolute;top:0;left:-10px;background:#FF6B5B;color:#fff;font-family:'Zen Maru Gothic',sans-serif;font-weight:900;font-size:24px;padding:10px 22px;border-radius:22px 22px 22px 6px;transform:rotate(-4deg)">Hello!</div>
+<div aria-hidden="true" style="position:absolute;bottom:0;right:-8px;background:#FFC93C;font-family:'Zen Maru Gothic',sans-serif;font-weight:900;font-size:20px;padding:10px 20px;border-radius:22px 22px 6px 22px;transform:rotate(3deg)">See you on Saturday!</div>
+</div>
 </div>
 </section>
 
-<section style="padding:64px 24px">
+<section id="next" style="padding:64px 24px 24px">
 <div style="max-width:1100px;margin:0 auto">
-<h2 style="margin:0 0 8px;font-size:clamp(24px,4vw,32px)">これからのレッスン</h2>
-<p style="margin:0 0 28px;color:#4B5563">アーニー先生が「お絵かきをしよう！」という日もあるので、ペンやクレヨンを用意して参加してね。</p>
+<p style="margin:0;color:#D63C2E;font-weight:700;font-family:'Zen Maru Gothic',sans-serif">NEXT LESSON</p>
+<h2 style="margin:4px 0 24px;font-size:clamp(24px,4vw,34px)">次のレッスン</h2>
+<div id="feature"></div>
+<h3 style="margin:40px 0 16px;font-size:20px">その次は…</h3>
 <ul id="upcoming" style="margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px"></ul>
 <div id="offnote"></div>
 <noscript><p>レッスン予定を表示するには、JavaScriptを有効にしてください。</p></noscript>
 </div>
 </section>
 
-<section style="background:#FFF9EC;padding:64px 24px">
+<section style="padding:56px 24px">
 <div style="max-width:1100px;margin:0 auto">
-<h2 style="margin:0 0 8px;font-size:clamp(24px,4vw,32px)">これまでのレッスン</h2>
-<p style="margin:0 0 24px;color:#4B5563">終わったレッスンは、ここに記録として残していきます（新しい順）。</p>
+<p style="margin:0;color:#D63C2E;font-weight:700;font-family:'Zen Maru Gothic',sans-serif">WHAT WE DO</p>
+<h2 style="margin:4px 0 8px;font-size:clamp(24px,4vw,34px)">こんなこと、やってます</h2>
+<p style="margin:0 0 28px">これまでのレッスンを、ジャンルごとに集めました。押すと、そのジャンルのレッスンだけ見られます。</p>
+<div id="genres" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px"></div>
+</div>
+</section>
+
+<section id="archive" style="background:#fff;padding:64px 24px">
+<div style="max-width:1100px;margin:0 auto">
+<p style="margin:0;color:#D63C2E;font-weight:700;font-family:'Zen Maru Gothic',sans-serif">ARCHIVE</p>
+<h2 style="margin:4px 0 8px;font-size:clamp(24px,4vw,34px)">これまでのレッスン</h2>
+<p style="margin:0 0 20px">終わったレッスンを、新しい順に残しています。</p>
+<div id="filters" role="group" aria-label="ジャンルでしぼりこむ" style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px"></div>
 <div id="past"></div>
 </div>
 </section>
 
-<section style="background:#FFC93C;padding:56px 24px">
-<div style="max-width:1000px;margin:0 auto;text-align:center">
-<h2 style="margin:0 0 12px;font-size:clamp(24px,4vw,30px)">まずは無料体験から</h2>
-<p style="margin:0 auto 24px;max-width:560px">ESHAの公式LINEに「体験クラス」と送ってください。初回1回は無料で参加できます。</p>
-<a href="./#contact" style="display:inline-block;background:#1E2A4A;color:#fff;font-weight:700;text-decoration:none;padding:16px 32px;border-radius:999px;font-size:17px">ESHAのLINEで申し込む</a>
+<section id="join" style="padding:64px 24px">
+<div style="max-width:1100px;margin:0 auto">
+<p style="margin:0;color:#D63C2E;font-weight:700;font-family:'Zen Maru Gothic',sans-serif">HOW TO JOIN</p>
+<h2 style="margin:4px 0 28px;font-size:clamp(24px,4vw,34px)">参加のしかた</h2>
+<ol style="margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;counter-reset:s">
+<li style="list-style:none;background:#fff;border-radius:20px;padding:22px"><p style="margin:0;font-family:'Zen Maru Gothic',sans-serif;font-weight:900;font-size:32px;color:#FF6B5B">1</p><p style="margin:4px 0 0;font-weight:700">公式LINEに「体験クラス」と送る</p><p style="margin:4px 0 0;font-size:14px">初回1回は無料です。</p></li>
+<li style="list-style:none;background:#fff;border-radius:20px;padding:22px"><p style="margin:0;font-family:'Zen Maru Gothic',sans-serif;font-weight:900;font-size:32px;color:#3DA9E0">2</p><p style="margin:4px 0 0;font-weight:700">Zoomのリンクが届く</p><p style="margin:4px 0 0;font-size:14px">リンクをタップするだけで参加できます。</p></li>
+<li style="list-style:none;background:#fff;border-radius:20px;padding:22px"><p style="margin:0;font-family:'Zen Maru Gothic',sans-serif;font-weight:900;font-size:32px;color:#3CC6A0">3</p><p style="margin:4px 0 0;font-weight:700">書くものを用意する</p><p style="margin:4px 0 0;font-size:14px">ペンとノート、色ペンやクレヨン。ホワイトボードでもOK。</p></li>
+<li style="list-style:none;background:#fff;border-radius:20px;padding:22px"><p style="margin:0;font-family:'Zen Maru Gothic',sans-serif;font-weight:900;font-size:32px;color:#8E6CE0">4</p><p style="margin:4px 0 0;font-weight:700">土曜 19:15、画面オンで参加</p><p style="margin:4px 0 0;font-size:14px">アーニー先生が、みんなの顔を見ながら進めます。</p></li>
+</ol>
+<div style="margin-top:32px;background:#FFC93C;border-radius:28px;padding:36px 28px;text-align:center">
+<h3 style="margin:0 0 8px;font-size:clamp(22px,3.5vw,28px)">まずは1回、のぞいてみませんか？</h3>
+<p style="margin:0 auto 20px;max-width:560px">毎週土曜 19:15〜19:55・月3,980円<br>初回1回は無料です。<br>公式LINEに「体験クラス」と送ってください。</p>
+<a href="./#contact" style="display:inline-block;background:#1E2A4A;color:#fff;font-weight:700;text-decoration:none;padding:16px 34px;border-radius:999px;font-size:17px">ESHAの公式LINEで申し込む</a>
+</div>
+<p style="margin:24px 0 0;font-size:14px;color:#4B5563">柏の葉キャンパス（チコル内）の教室レッスンは<a href="./" style="font-weight:700">こちら</a>。</p>
 </div>
 </section>
 
@@ -94,23 +133,56 @@ function card(e,time){
  '<p style="margin:0;font-size:14px;line-height:1.8">'+esc(e.desc)+'</p></div></article>';
 }
 var today=new Date(Date.now()+9*3600000).toISOString().slice(0,10);
-fetch("data/lessons.json").then(function(r){return r.json();}).then(function(data){
- var L=data.lessons.slice().sort(function(a,b){return a.date<b.date?-1:1;});
- var future=L.filter(function(e){return e.date>=today;});
- var shown=[],offs=[],n=0;
- future.forEach(function(e){ if(n>=4) return; if(e.off){offs.push(e);} else {shown.push(e);n++;} });
- var up=document.getElementById("upcoming");
- up.innerHTML=shown.map(function(e){return '<li style="list-style:none;display:flex">'+card(e,true)+'</li>';}).join("") || '<li style="list-style:none">次のレッスン予定は近日公開します。</li>';
- if(offs.length){document.getElementById("offnote").innerHTML='<div style="margin-top:24px;background:#fff;border-radius:20px;padding:20px 24px"><p style="margin:0;font-weight:700">お休みのお知らせ</p><p style="margin:4px 0 0;font-size:15px">'+offs.map(function(e){return md(e.date)+(e.reason?"（"+esc(e.reason)+"）":"");}).join("・")+' はお休みです。</p></div>';}
- var past=L.filter(function(e){return e.date<today && !e.off;}).reverse();
+var state={tag:null},ALL=[];
+function daysTo(d){return Math.round((new Date(d+"T00:00:00+09:00")-new Date(today+"T00:00:00+09:00"))/86400000);}
+function renderPast(){
+ var past=ALL.filter(function(e){return e.date<today && !e.off && (!state.tag||e.tag===state.tag);}).reverse();
  var groups={},order=[];
  past.forEach(function(e){var k=e.date.slice(0,7);if(!groups[k]){groups[k]=[];order.push(k);}groups[k].push(e);});
  document.getElementById("past").innerHTML=order.map(function(k,gi){
   var p=k.split("-");
-  return '<details'+(gi<2?' open':'')+' style="border-top:2px solid #F1EBDD;padding:16px 0">'+
-  '<summary style="cursor:pointer;font-family:\'Zen Maru Gothic\',sans-serif;font-weight:900;font-size:20px">'+Number(p[0])+'年'+Number(p[1])+'月のレッスン<span style="font-size:14px;font-weight:500;color:#4B5563">（'+groups[k].length+'回）</span></summary>'+
-  '<div style="margin-top:16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px">'+groups[k].map(function(e){return card(e,false);}).join("")+'</div></details>';}).join("");
-}).catch(function(){document.getElementById("upcoming").innerHTML='<li style="list-style:none">予定を読み込めませんでした。時間をおいてもう一度開いてください。</li>';});
+  return '<details'+((gi<2||state.tag)?' open':'')+' style="border-top:2px solid #F1EBDD;padding:16px 0">'+
+  '<summary style="cursor:pointer;list-style:none;font-family:\'Zen Maru Gothic\',sans-serif;font-weight:900;font-size:20px">'+Number(p[0])+'年'+Number(p[1])+'月のレッスン<span style="font-size:14px;font-weight:500;color:#4B5563">（'+groups[k].length+'回）▼</span></summary>'+
+  '<div style="margin-top:16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px">'+groups[k].map(function(e){return card(e,false);}).join("")+'</div></details>';}).join("") || '<p>このジャンルのレッスンはまだありません。</p>';
+ var btns=document.querySelectorAll("#filters .tagbtn");
+ for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",String((btns[i].getAttribute("data-tag")||null)===state.tag));}
+}
+window.__pick=function(tag){state.tag=tag||null;renderPast();};
+fetch("data/lessons.json").then(function(r){return r.json();}).then(function(data){
+ ALL=data.lessons.slice().sort(function(a,b){return a.date<b.date?-1:1;});
+ var lessons=ALL.filter(function(e){return !e.off;});
+ var done=lessons.filter(function(e){return e.date<today;});
+ var since=lessons.length?lessons[0].date.slice(0,4):"";
+ document.getElementById("stat").innerHTML=
+  '<span style="background:#fff;border-radius:16px;padding:10px 16px"><strong style="font-family:\'Zen Maru Gothic\',sans-serif;font-size:26px;color:#E5483A">'+done.length+'</strong> 回のレッスンを記録中</span>'+
+  '<span style="background:#fff;border-radius:16px;padding:10px 16px"><strong style="font-family:\'Zen Maru Gothic\',sans-serif;font-size:26px;color:#1F6E99">'+Object.keys(TAG).length+'</strong> ジャンル</span>';
+ var future=ALL.filter(function(e){return e.date>=today;});
+ var shown=[],offs=[],n=0;
+ future.forEach(function(e){ if(n>=4) return; if(e.off){offs.push(e);} else {shown.push(e);n++;} });
+ if(shown.length){
+  var f=shown[0],t=TAG[f.tag]||TAG["ゲーム・あそび"],dd=daysTo(f.date);
+  document.getElementById("feature").innerHTML='<article style="background:#fff;border-radius:28px;overflow:hidden;display:flex;flex-wrap:wrap;box-shadow:0 4px 18px rgba(30,42,74,0.1)">'+
+  '<div style="flex:1 1 360px;min-width:0">'+cover(f)+'</div>'+
+  '<div style="flex:1 1 320px;min-width:0;padding:28px">'+
+  '<p style="margin:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center"><span style="background:#D63C2E;color:#fff;font-weight:700;font-size:14px;padding:4px 14px;border-radius:999px">'+(dd<=0?'今日！':'あと'+dd+'日')+'</span><span style="background:'+t.bg+';color:'+t.fg+';font-weight:700;font-size:13px;padding:2px 10px;border-radius:999px">'+esc(f.tag)+'</span></p>'+
+  '<p style="margin:12px 0 0;font-weight:700;color:#4B5563">'+md(f.date)+' 19:15〜19:55</p>'+
+  '<h3 style="margin:4px 0 10px;font-size:clamp(24px,3.5vw,32px);line-height:1.3">'+esc(f.theme)+'</h3>'+
+  '<p style="margin:0;font-size:16px">'+esc(f.desc)+'</p>'+
+  '<a href="#join" style="display:inline-block;margin-top:20px;background:#FFC93C;color:#1E2A4A;font-weight:700;text-decoration:none;padding:12px 24px;border-radius:999px">この回に体験で参加する</a></div></article>';
+ }
+ document.getElementById("upcoming").innerHTML=shown.slice(1).map(function(e){return '<li style="list-style:none;display:flex">'+card(e,true)+'</li>';}).join("");
+ if(offs.length){document.getElementById("offnote").innerHTML='<div style="margin-top:24px;background:#fff;border-radius:20px;padding:20px 24px"><p style="margin:0;font-weight:700">お休みのお知らせ</p><p style="margin:4px 0 0;font-size:15px">'+offs.map(function(e){return md(e.date)+(e.reason?"（"+esc(e.reason)+"）":"");}).join("・")+' はお休みです。</p></div>';}
+ var g=Object.keys(TAG).map(function(k){
+  var list=done.filter(function(e){return e.tag===k;}).reverse();
+  var t=TAG[k];
+  return '<button type="button" onclick="__pick(\''+k+'\');document.getElementById(\'archive\').scrollIntoView({behavior:\'smooth\'})" style="text-align:left;cursor:pointer;font:inherit;color:inherit;background:'+t.bg+';border:0;border-radius:24px;padding:20px 22px;display:flex;gap:16px;align-items:flex-start">'+
+  '<svg aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="'+t.fg+'" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="flex:0 0 auto">'+t.icon+'</svg>'+
+  '<span><span style="display:block;font-family:\'Zen Maru Gothic\',sans-serif;font-weight:900;font-size:19px;color:'+t.fg+'">'+k+'<span style="font-size:14px;font-weight:700;color:#4B5563">　'+list.length+'回</span></span>'+
+  '<span style="display:block;font-size:14px;margin-top:4px">'+list.slice(0,3).map(function(e){return esc(e.theme);}).join("／")+(list.length>3?' ほか':'')+'</span></span></button>';});
+ document.getElementById("genres").innerHTML=g.join("");
+ document.getElementById("filters").innerHTML='<button type="button" class="tagbtn" data-tag="" onclick="__pick(null)" style="background:#F3F4F6;color:#1E2A4A">すべて</button>'+Object.keys(TAG).map(function(k){var t=TAG[k];return '<button type="button" class="tagbtn" data-tag="'+k+'" onclick="__pick(\''+k+'\')" style="background:'+t.bg+';color:'+t.fg+'">'+k+'</button>';}).join("");
+ renderPast();
+}).catch(function(){document.getElementById("feature").innerHTML='<p>予定を読み込めませんでした。時間をおいてもう一度開いてください。</p>';});
 })();
 </script>
 </body>
