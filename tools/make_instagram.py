@@ -23,6 +23,11 @@ def icon(d, kind, cx, cy, s, col=WHITE, w=None):
         d.ellipse([cx-s*0.45-w, cy-s*0.3-w, cx-s*0.45+w, cy-s*0.3+w], fill=col)
         d.ellipse([cx+s*0.45-w, cy-s*0.3-w, cx+s*0.45+w, cy-s*0.3+w], fill=col)
         d.arc([cx-s*0.45, cy-s*0.35, cx+s*0.45, cy+s*0.3], 20, 160, fill=col, width=w)
+    elif kind == "balloon":  # 風船
+        d.ellipse([cx-s*0.62, cy-s*0.95, cx+s*0.62, cy+s*0.45], outline=col, width=w)
+        d.polygon([(cx, cy+s*0.42), (cx-s*0.13, cy+s*0.6), (cx+s*0.13, cy+s*0.6)], fill=col)
+        d.line([(cx, cy+s*0.6), (cx-s*0.18, cy+s*0.78), (cx+s*0.1, cy+s*0.95)], fill=col, width=max(4, w//2), joint="curve")
+        d.arc([cx-s*0.38, cy-s*0.7, cx+s*0.1, cy-s*0.2], 190, 260, fill=col, width=w)
     elif kind == "house":
         L([(cx-s, cy-s*0.05), (cx, cy-s*0.9), (cx+s, cy-s*0.05)])
         d.rectangle([cx-s*0.75, cy-s*0.15, cx+s*0.75, cy+s*0.85], outline=col, width=w)
@@ -59,7 +64,7 @@ def icon(d, kind, cx, cy, s, col=WHITE, w=None):
             d.ellipse([cx+k*s-w, cy-s*0.12-w, cx+k*s+w, cy-s*0.12+w], fill=col)
 
 HL = [  # key, title, color, icon
-    ("01", "はじめての方へ", RED, "hello"),
+    ("01", "はじめての方へ", RED, "balloon"),
     ("02", "教室（柏の葉）", MINT, "house"),
     ("03", "ESHA", SKY, "laptop"),
     ("04", "今月のテーマ", GRAPE, "calendar"),
@@ -131,12 +136,12 @@ def story(name, col, ic, title, blocks, foot="Ernie's English Academy", img=None
     return y
 
 S = []
-S.append(story("story_01_はじめての方へ_1", RED, "hello", "はじめての方へ", [
+S.append(story("story_01_はじめての方へ_1", RED, "balloon", "はじめての方へ", [
     ("big", "英語が苦手でも、先生が大好きになる。"),
     ("text", "ニューヨーク出身のアーニー先生と、マリ先生。指導歴20年以上、口コミだけで続いてきた、家族みたいな英語教室です。"),
     ("text", "ほかの英語教室が合わなかった子も、ここでは楽しく通っています。"),
 ]))
-S.append(story("story_01_はじめての方へ_2", RED, "hello", "はじめての方へ", [
+S.append(story("story_01_はじめての方へ_2", RED, "balloon", "はじめての方へ", [
     ("big", "2つの通い方"),
     ("label", "柏の葉キャンパス駅3分・チコル内"),
     ("accent", "教室（幼稚園〜中学生）"),
@@ -157,7 +162,7 @@ S.append(story("story_02_教室_1", MINT, "house", "教室（柏の葉）", [
 S.append(story("story_02_教室_2", MINT, "house", "土曜クラス", [
     ("big", "親戚が集まったおうちみたいな、あったかい土曜日。"),
     ("text", "幼稚園生から中学生までが一緒に、風船あそびやクラフトを英語で。大きい子が小さい子に教えてくれます。一人っ子のお子さまにも。"),
-    ("text", "好きなおもちゃやぬいぐるみを持ってきてOK。50分ごとのコマから、好きなコマを選んで参加できます。"),
+    ("text", "好きなおもちゃやぬいぐるみを持ってきてOK。参加する時間は、50分単位で選べます。"),
 ]))
 S.append(story("story_03_ESHA_1", SKY, "laptop", "ESHA", [
     ("big", "毎週土曜の夜は、おうちが英語の遊び場に。"),
