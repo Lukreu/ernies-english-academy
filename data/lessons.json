@@ -1631,19 +1631,22 @@
    "date": "2026-11-07",
    "theme": "My Family",
    "desc": "家族は何人？ パパやママの好きなものを聞いてみよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2026-11-07.jpg"
   },
   {
    "date": "2026-11-14",
    "theme": "FALL BINGO FUN",
    "desc": "秋のことばを考えて、絵やスペルでビンゴ！",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-11-14.jpg"
   },
   {
    "date": "2026-11-21",
    "theme": "I am Thankful for…",
    "desc": "だれに、どこに、何に感謝しているか話そう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-11-21.jpg"
   },
   {
    "date": "2026-11-28",
