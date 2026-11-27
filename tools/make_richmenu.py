@@ -41,7 +41,7 @@ def make(cells, out):
 base = [
     (RED, "star", "12/20 クリスマス会", "申し込みはこちら"),
     (GREEN, "chat", "見学・お問い合わせ", "トークで送ってね"),
-    (MINT, "book", "クラスと料金", "火・木・土曜プチ留学"),
+    (MINT, "book", "クラスと料金", "火・木・土曜クラス"),
     (YEL, "pin", "アクセス", "柏の葉キャンパス駅3分"),
 ]
 A = base + [(GRAPE, "camera", "Instagram", "レッスンの様子"), (SKY, "laptop", "オンライン ESHA", "毎週土曜19:15〜")]
