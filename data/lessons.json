@@ -489,29 +489,34 @@
    "date": "2026-12-05",
    "theme": "FINGER GYM EXERCISES",
    "desc": "ゆびの体そうをするよ！ ゆびの運動で頭もスッキリ！",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2026-12-05.jpg"
   },
   {
    "date": "2026-12-12",
    "theme": "Penguin World",
    "desc": "寒いところが好きなペンギンさん。何を食べるのかな？とべるのかなぁ？",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2026-12-12.jpg"
   },
   {
    "date": "2026-12-19",
    "theme": "2026 Christmas Fun!!",
    "desc": "クリスマスのお話や歌で楽しもう！ サンタさんに何をお願いする？",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-12-19.jpg"
   },
   {
    "date": "2026-12-26",
    "off": true,
-   "reason": "冬休み"
+   "reason": "冬休み",
+   "canva": "images/canva/2026-12-26.jpg"
   },
   {
    "date": "2027-01-02",
    "off": true,
-   "reason": "冬休み"
+   "reason": "冬休み",
+   "canva": "images/canva/2027-01-02.jpg"
   }
  ]
 }

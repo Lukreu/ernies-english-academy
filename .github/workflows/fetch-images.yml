@@ -1,0 +1,33 @@
+name: 画像の取り込み（Canva など）
+on:
+  push:
+    paths: ["data/image-queue.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: キューの画像をダウンロード
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          q = json.load(open("data/image-queue.json", encoding="utf-8"))
+          for item in q.get("items", []):
+              path = item["path"]
+              if not path.startswith("images/") or ".." in path:
+                  continue
+              os.makedirs(os.path.dirname(path), exist_ok=True)
+              urllib.request.urlretrieve(item["url"], path)
+              print("saved", path, os.path.getsize(path))
+          json.dump({"items": []}, open("data/image-queue.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          PY
+      - name: コミット
+        run: |
+          git config user.name "Lukreu"
+          git config user.email "info@lukreu.com"
+          git add images data/image-queue.json
+          git diff --cached --quiet || git commit -m "画像を取り込み（自動）"
+          git push

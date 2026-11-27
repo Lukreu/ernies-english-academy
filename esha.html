@@ -119,6 +119,7 @@ function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {"&":"&amp
 function md(d){var p=d.split("-");return Number(p[1])+"月"+Number(p[2])+"日（土）";}
 function cover(e){
  var t=TAG[e.tag]||TAG["ゲーム・あそび"];
+ if(e.canva && e.date>=today){return '<img src="'+esc(e.canva)+'" alt="'+esc(e.theme)+'のレッスン案内" style="width:100%;aspect-ratio:532/376;object-fit:cover;display:block">';}
  if(e.image){return '<img src="'+esc(e.image)+'" alt="" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block">';}
  return '<div aria-hidden="true" style="aspect-ratio:16/9;background:'+t.bg+';display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:16px;text-align:center">'+
   '<svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="'+t.fg+'" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+t.icon+'</svg>'+
@@ -173,7 +174,7 @@ fetch("data/lessons.json").then(function(r){return r.json();}).then(function(dat
   '<a href="'+LINE_URL+'" style="display:inline-block;margin-top:20px;background:#FFC93C;color:#1E2A4A;font-weight:700;text-decoration:none;padding:12px 24px;border-radius:999px">この回に体験で参加する</a></div></article>';
  }
  document.getElementById("upcoming").innerHTML=shown.slice(1).map(function(e){return '<li style="list-style:none;display:flex">'+card(e,true)+'</li>';}).join("");
- if(offs.length){document.getElementById("offnote").innerHTML='<div style="margin-top:24px;background:#fff;border-radius:20px;padding:20px 24px"><p style="margin:0;font-weight:700">お休みのお知らせ</p><p style="margin:4px 0 0;font-size:15px">'+offs.map(function(e){return md(e.date)+(e.reason?"（"+esc(e.reason)+"）":"");}).join("・")+' はお休みです。</p></div>';}
+ if(offs.length){var imgs=offs.filter(function(e){return e.canva;}).map(function(e){return '<img src="'+esc(e.canva)+'" alt="'+md(e.date)+'はお休みです" style="width:100%;max-width:360px;aspect-ratio:532/376;object-fit:cover;border-radius:14px;display:block">';}).join('');document.getElementById("offnote").innerHTML='<div style="margin-top:24px;background:#fff;border-radius:20px;padding:20px 24px"><p style="margin:0;font-weight:700">お休みのお知らせ</p><p style="margin:4px 0 12px;font-size:15px">'+offs.map(function(e){return md(e.date)+(e.reason?"（"+esc(e.reason)+"）":"");}).join("・")+' はお休みです。</p>'+(imgs?'<div style="display:flex;flex-wrap:wrap;gap:12px">'+imgs+'</div>':'')+'</div>';}
  var g=Object.keys(TAG).map(function(k){
   var list=done.filter(function(e){return e.tag===k;}).reverse();
   var t=TAG[k];
