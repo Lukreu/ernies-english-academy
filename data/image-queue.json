@@ -1,3 +1,8 @@
 {
- "items": []
+ "items": [
+  {
+   "path": "images/photos/xmas_ai_raw.jpg",
+   "url": "https://media.canva.com/v2/image-resize/format:JPG/height:1050/quality:90/uri:ifs%3A%2F%2FM%2Fd9385899-ad26-43fa-849f-1c4459688f6f/watermark:F/width:1400?csig=AAAAAAAAAAAAAAAAAAAAADrLw34jk52migVPki-durSQA036B9KNWkVXLlYK6B8m&exp=1795807460&osig=AAAAAAAAAAAAAAAAAAAAANDf8aaobOU-b8__KFxqNUVUkmhDI89gpP5E8pi4RPBJ&signer=media-rpc&token=AAIAAU0AJGQ5Mzg1ODk5LWFkMjYtNDNmYS04NDlmLTFjNDQ1OTY4OGY2ZgAAAAABoh53OqARpvtEajYabytzzU4obGuIy2lQOtbIy3RGnBSRCqSIcA&x-canva-quality=thumbnail"
+  }
+ ]
 }
