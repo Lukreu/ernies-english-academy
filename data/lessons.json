@@ -1,707 +1,992 @@
 {
- "note": "ESHAのレッスン予定と記録。2022〜2024年の過去分は「ESHA レッスン動画一覧（YouTube）」から作成。毎月、翌月分を追加する。off=trueはお休み。",
+ "note": "ESHAのレッスン予定と記録。過去分はCanva（ESHA _schedule各年）と「ESHA レッスン動画一覧」から作成。canva=案内画像。毎月、翌月分を追加する。off=trueはお休み。",
  "lessons": [
   {
    "date": "2022-01-15",
    "theme": "Let's Build a Snowman",
    "desc": "雪だるまを作りながら、体のパーツを英語で言おう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-01-15.jpg"
   },
   {
    "date": "2022-01-22",
    "theme": "Touch your head!",
    "desc": "「Touch your ～!」で体のパーツをタッチするゲーム。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2022-01-22.jpg"
   },
   {
    "date": "2022-01-29",
    "theme": "Touch your head!",
    "desc": "体のパーツの英語を、動きながらもっと覚えよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2022-01-29.jpg"
   },
   {
    "date": "2022-02-05",
    "theme": "It's snowing!",
    "desc": "雪の日の遊びや服を英語で言ってみよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-02-05.jpg"
   },
   {
    "date": "2022-02-12",
    "theme": "Valentine's Special I love my family",
    "desc": "バレンタインに、家族への「大好き」を英語で伝えよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-02-12.jpg"
+  },
+  {
+   "date": "2022-02-19",
+   "theme": "Play with Alphabets",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2022-02-19.jpg"
   },
   {
    "date": "2022-02-26",
    "theme": "Are you happy?",
    "desc": "うれしい・かなしいなど、気持ちを英語で言おう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2022-02-26.jpg"
   },
   {
    "date": "2022-03-05",
    "theme": "Fun Counting!",
    "desc": "数を英語でかぞえるゲーム。いくつまで言えるかな？",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2022-03-05.jpg"
   },
   {
    "date": "2022-03-12",
    "theme": "Create a Face!",
    "desc": "目・鼻・口を英語で言いながら、顔を描いてみよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2022-03-12.jpg"
   },
   {
    "date": "2022-03-19",
    "theme": "Plant seeds",
    "desc": "種をまくと、どうやって育つのかな？",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2022-03-19.jpg"
   },
   {
    "date": "2022-03-26",
    "theme": "Spring is here!",
    "desc": "春に見つけたものを英語で言ってみよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-03-26.jpg"
   },
   {
    "date": "2022-04-02",
    "theme": "Where is Bunny?",
    "desc": "うさぎはどこ？ in・on・under で場所を言おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2022-04-02.jpg"
   },
   {
    "date": "2022-04-09",
    "theme": "Back to School!",
    "desc": "新学期。学校で使うものを英語で言ってみよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-04-09.jpg"
   },
   {
    "date": "2022-04-16",
    "theme": "What time is it?",
    "desc": "時計を見ながら、時間を英語で言おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2022-04-16.jpg"
   },
   {
    "date": "2022-04-23",
    "theme": "Let's plant a seed!",
    "desc": "種から芽が出るまでを、英語で順番に言ってみよう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2022-04-23.jpg"
   },
   {
    "date": "2022-05-07",
    "theme": "Where did you go?",
    "desc": "お休みにどこへ行ったか、英語で話そう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2022-05-07.jpg"
+  },
+  {
+   "date": "2022-05-14",
+   "theme": "Thank you Family",
+   "desc": "",
+   "tag": "家族・わたし",
+   "canva": "images/canva/2022-05-14.jpg"
   },
   {
    "date": "2022-05-21",
    "theme": "Let's go to the ZOO!",
    "desc": "動物園の動物を、鳴き声や動きで当てっこ。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2022-05-21.jpg"
   },
   {
    "date": "2022-05-28",
    "theme": "It's growing!",
    "desc": "植えた種はどのくらい大きくなった？",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2022-05-28.jpg"
   },
   {
    "date": "2022-06-04",
    "theme": "Rainy Day",
    "desc": "雨の日に使うものや遊びを英語で言おう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-06-04.jpg"
   },
   {
    "date": "2022-06-11",
    "theme": "Can you see ~?",
    "desc": "「何が見える？」を英語でたずね合おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2022-06-11.jpg"
   },
   {
    "date": "2022-06-18",
    "theme": "What day is today?",
    "desc": "曜日の英語を、歌とゲームで覚えよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2022-06-18.jpg"
   },
   {
    "date": "2022-06-25",
    "theme": "When is your birthday?",
    "desc": "月の名前を覚えて、誕生日を英語で言おう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2022-06-25.jpg"
   },
   {
    "date": "2022-07-02",
    "theme": "Twinkle Stars",
    "desc": "七夕にちなんで、星の歌とお願いごと。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-07-02.jpg"
+  },
+  {
+   "date": "2022-07-09",
+   "theme": "The flowers are coming out!?",
+   "desc": "",
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2022-07-09.jpg"
   },
   {
    "date": "2022-07-16",
    "theme": "Ocean Animals",
    "desc": "海にすむ生き物を英語で言ってみよう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2022-07-16.jpg"
+  },
+  {
+   "date": "2022-07-23",
+   "theme": "Let's go to the Beach!",
+   "desc": "",
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-07-23.jpg"
   },
   {
    "date": "2022-07-30",
    "theme": "Ice Cream Fun!!",
    "desc": "好きなアイスの味を英語で注文してみよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2022-07-30.jpg"
   },
   {
    "date": "2022-08-06",
    "theme": "Let's go to the mountain!",
    "desc": "山で見つけるものを英語で言おう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2022-08-06.jpg"
   },
   {
    "date": "2022-08-20",
    "theme": "Big Big Fireworks!",
    "desc": "花火の色や形を英語で言ってみよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-08-20.jpg"
   },
   {
    "date": "2022-08-27",
    "theme": "Pizza Party!!",
    "desc": "好きなトッピングで、英語でピザを作ろう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2022-08-27.jpg"
   },
   {
    "date": "2022-09-03",
    "theme": "What time did you get up?",
    "desc": "何時に起きた？ 一日の流れを英語で話そう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2022-09-03.jpg"
   },
   {
    "date": "2022-09-10",
    "theme": "The beautiful moon",
    "desc": "お月見にちなんで、月の形を英語で言おう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-09-10.jpg"
   },
   {
    "date": "2022-09-17",
    "theme": "Family Tree",
    "desc": "家族の呼び方を英語で覚えて、家系図を作ろう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2022-09-17.jpg"
   },
   {
    "date": "2022-09-24",
    "theme": "Picking the Autumn Fruits",
    "desc": "秋のくだものを英語で言ってみよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-09-24.jpg"
   },
   {
    "date": "2022-10-01",
    "theme": "Reading Time",
    "desc": "英語の絵本を、先生と一緒に読もう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2022-10-01.jpg"
   },
   {
    "date": "2022-10-08",
    "theme": "Sports Day!",
    "desc": "運動会の種目やスポーツを英語で言おう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-10-08.jpg"
   },
   {
    "date": "2022-10-15",
    "theme": "Which do you like... hamburger or hotdog??",
    "desc": "「どっちが好き？」を英語でたずね合おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2022-10-15.jpg"
   },
   {
    "date": "2022-10-22",
    "theme": "Action word",
    "desc": "run・jump など、動きのことばを体で覚えよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2022-10-22.jpg"
+  },
+  {
+   "date": "2022-10-29",
+   "theme": "HALLOWEEN PARTY!",
+   "desc": "",
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-10-29.jpg"
   },
   {
    "date": "2022-11-05",
    "theme": "Around the world",
    "desc": "世界の国やあいさつを英語で知ろう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2022-11-05.jpg"
+  },
+  {
+   "date": "2022-11-12",
+   "theme": "Opposite Words",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2022-11-12.jpg"
   },
   {
    "date": "2022-11-19",
    "theme": "Community Social Workers",
    "desc": "町で働く人たちのお仕事を英語で言おう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2022-11-19.jpg"
   },
   {
    "date": "2022-11-26",
    "theme": "I am thankful for ...",
    "desc": "感謝していることを英語で伝えよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-11-26.jpg"
   },
   {
    "date": "2022-12-03",
    "theme": "Forest Animals",
    "desc": "森にすむ動物を英語で言ってみよう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2022-12-03.jpg"
   },
   {
    "date": "2022-12-10",
    "theme": "It's cold outside!",
    "desc": "寒い日の服や遊びを英語で言おう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-12-10.jpg"
   },
   {
    "date": "2022-12-17",
    "theme": "Let's make cookies!",
    "desc": "クッキー作りの手順を英語で言ってみよう。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2022-12-17.jpg"
   },
   {
    "date": "2022-12-24",
    "theme": "Merry Christmas",
    "desc": "クリスマスの歌とことばで楽しもう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2022-12-24.jpg"
   },
   {
    "date": "2023-01-07",
    "theme": "2023 New Year's Special",
    "desc": "新年のあいさつと、今年やりたいことを英語で。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-01-07.jpg"
   },
   {
    "date": "2023-01-14",
    "theme": "Good Manners",
    "desc": "please・thank you など、マナーのことばを覚えよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-01-14.jpg"
   },
   {
    "date": "2023-01-21",
    "theme": "Sight Words Reading",
    "desc": "よく出る英単語（サイトワーズ）を読んでみよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2023-01-21.jpg"
   },
   {
    "date": "2023-01-28",
    "theme": "Healthy Food",
    "desc": "体にいい食べものを英語で言ってみよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-01-28.jpg"
   },
   {
    "date": "2023-02-04",
    "theme": "Let's make snowflakes!",
    "desc": "紙を切って、雪の結晶を作ろう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-02-04.jpg"
   },
   {
    "date": "2023-02-11",
    "theme": "Happy Valentine♡",
    "desc": "バレンタインのカードを英語で書いてみよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-02-11.jpg"
   },
   {
    "date": "2023-02-18",
    "theme": "Which one?",
    "desc": "どっちかな？ 選ぶ英語を使ってゲーム。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2023-02-18.jpg"
   },
   {
    "date": "2023-02-25",
    "theme": "Draw yourself... as a cartoon character",
    "desc": "自分をキャラクターにして描き、英語で紹介しよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2023-02-25.jpg"
   },
   {
    "date": "2023-03-04",
    "theme": "This is my house.",
    "desc": "おうちの部屋の名前を英語で言おう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-03-04.jpg"
   },
   {
    "date": "2023-03-11",
    "theme": "Action Game Fun!",
    "desc": "動きのことばで遊ぶゲーム。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2023-03-11.jpg"
+  },
+  {
+   "date": "2023-03-18",
+   "theme": "Spring is here!",
+   "desc": "",
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-03-18.jpg"
   },
   {
    "date": "2023-03-25",
    "theme": "Butterfly Life Cycle",
    "desc": "たまごからちょうちょになるまでを英語で。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2023-03-25.jpg"
   },
   {
    "date": "2023-04-01",
    "theme": "Cherry Blossom Party",
    "desc": "お花見にちなんで、春のことばを英語で。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-04-01.jpg"
+  },
+  {
+   "date": "2023-04-08",
+   "theme": "Easter Fun!!",
+   "desc": "",
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-04-08.jpg"
   },
   {
    "date": "2023-04-15",
    "theme": "All about me",
    "desc": "自分のことを英語で紹介してみよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-04-15.jpg"
+  },
+  {
+   "date": "2023-04-22",
+   "theme": "Where is my bag?",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2023-04-22.jpg"
   },
   {
    "date": "2023-05-06",
    "theme": "Bees and Flowers",
    "desc": "ミツバチと花のひみつを英語で知ろう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2023-05-06.jpg"
   },
   {
    "date": "2023-05-13",
    "theme": "Thank you family!",
    "desc": "家族へのありがとうを英語で伝えよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-05-13.jpg"
   },
   {
    "date": "2023-05-20",
    "theme": "What does it taste like?",
    "desc": "あまい・すっぱいなど、味を英語で言おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2023-05-20.jpg"
+  },
+  {
+   "date": "2023-05-27",
+   "theme": "Measurement",
+   "desc": "",
+   "tag": "実験",
+   "canva": "images/canva/2023-05-27.jpg"
   },
   {
    "date": "2023-06-03",
    "theme": "Let's make a story!!",
    "desc": "みんなでつなげて、英語のお話を作ろう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2023-06-03.jpg"
+  },
+  {
+   "date": "2023-06-10",
+   "theme": "He is a teacher.",
+   "desc": "",
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-06-10.jpg"
+  },
+  {
+   "date": "2023-06-17",
+   "theme": "Today and Tomorrow",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2023-06-17.jpg"
+  },
+  {
+   "date": "2023-06-24",
+   "theme": "Flag Pattern",
+   "desc": "",
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2023-06-24.jpg"
+  },
+  {
+   "date": "2023-07-01",
+   "theme": "Planting Seeds",
+   "desc": "",
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2023-07-01.jpg"
   },
   {
    "date": "2023-07-08",
    "theme": "Space Activity",
    "desc": "宇宙や星について英語で知ろう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2023-07-08.jpg"
   },
   {
    "date": "2023-07-15",
    "theme": "Beach Safety",
    "desc": "海で安全に遊ぶための英語を覚えよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-07-15.jpg"
   },
   {
    "date": "2023-07-22",
    "theme": "The summer break is starting",
    "desc": "夏休みにやりたいことを英語で話そう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-07-22.jpg"
   },
   {
    "date": "2023-07-29",
    "theme": "Touch and Feel",
    "desc": "さわった感じを英語で言ってみよう。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2023-07-29.jpg"
   },
   {
    "date": "2023-08-05",
    "theme": "Camping at lake",
    "desc": "キャンプで使うものを英語で言おう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-08-05.jpg"
   },
   {
    "date": "2023-08-19",
    "theme": "Nocturnal Animals",
    "desc": "夜に活動する動物を英語で知ろう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2023-08-19.jpg"
   },
   {
    "date": "2023-08-26",
    "theme": "Day and Night",
    "desc": "昼と夜、何がちがう？ 英語で考えよう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2023-08-26.jpg"
   },
   {
    "date": "2023-09-02",
    "theme": "Color Mixing",
    "desc": "色をまぜると何色になる？ 色の実験。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2023-09-02.jpg"
   },
   {
    "date": "2023-09-09",
    "theme": "My Grandparents",
    "desc": "おじいちゃん・おばあちゃんのことを英語で話そう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-09-09.jpg"
   },
   {
    "date": "2023-09-16",
    "theme": "Apples",
    "desc": "りんごの色や味、育ち方を英語で。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2023-09-16.jpg"
   },
   {
    "date": "2023-09-30",
    "theme": "My Favorite Subject",
    "desc": "好きな教科を英語で言ってみよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-09-30.jpg"
   },
   {
    "date": "2023-10-07",
    "theme": "What did you eat today?",
    "desc": "今日食べたものを英語で話そう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-10-07.jpg"
   },
   {
    "date": "2023-10-14",
    "theme": "The Four Seasons",
    "desc": "春夏秋冬、それぞれの季節を英語で。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-10-14.jpg"
   },
   {
    "date": "2023-10-21",
    "theme": "Story Time",
    "desc": "英語のお話を聞いて、楽しもう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2023-10-21.jpg"
+  },
+  {
+   "date": "2023-10-28",
+   "theme": "Jack O'Lantern",
+   "desc": "",
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-10-28.jpg"
   },
   {
    "date": "2023-11-04",
    "theme": "Forest Animals",
    "desc": "森の動物たちを英語で言ってみよう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2023-11-04.jpg"
+  },
+  {
+   "date": "2023-11-11",
+   "theme": "Helping at home",
+   "desc": "",
+   "tag": "家族・わたし",
+   "canva": "images/canva/2023-11-11.jpg"
+  },
+  {
+   "date": "2023-11-18",
+   "theme": "Directions",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2023-11-18.jpg"
+  },
+  {
+   "date": "2023-11-25",
+   "theme": "Harvest Time",
+   "desc": "",
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-11-25.jpg"
+  },
+  {
+   "date": "2023-12-02",
+   "theme": "Winter Words",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2023-12-02.jpg"
+  },
+  {
+   "date": "2023-12-09",
+   "theme": "What Time did you ...?",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2023-12-09.jpg"
+  },
+  {
+   "date": "2023-12-16",
+   "theme": "Build a Gingerbread House",
+   "desc": "",
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-12-16.jpg"
   },
   {
    "date": "2023-12-23",
    "theme": "Christmas Carol",
    "desc": "クリスマスキャロルを英語で歌おう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2023-12-23.jpg"
   },
   {
    "date": "2024-01-06",
    "theme": "2024 My New Year Goal",
    "desc": "今年の目標を英語で言ってみよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2024-01-06.jpg"
   },
   {
    "date": "2024-01-13",
    "theme": "Snowman at Night???",
    "desc": "夜の雪だるまは何をしているかな？ お話あそび。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2024-01-13.jpg"
   },
   {
    "date": "2024-01-27",
    "theme": "Little Penguin",
    "desc": "ペンギンの暮らしを英語で知ろう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2024-01-27.jpg"
   },
   {
    "date": "2024-02-03",
    "theme": "Let's play with snow!",
    "desc": "雪あそびのことばを英語で言おう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2024-02-03.jpg"
   },
   {
    "date": "2024-02-10",
    "theme": "My ♡ Map",
    "desc": "好きなものを集めた、自分だけの地図を作ろう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-02-10.jpg"
   },
   {
    "date": "2024-02-17",
    "theme": "Action Words",
    "desc": "動きのことばを、体を動かして覚えよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-02-17.jpg"
+  },
+  {
+   "date": "2024-02-24",
+   "theme": "Let's Make Sentences",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-02-24.jpg"
   },
   {
    "date": "2024-03-02",
    "theme": "How tall is Mt. Fuji?",
    "desc": "大きさや高さをくらべる英語を使おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-03-02.jpg"
   },
   {
    "date": "2024-03-09",
    "theme": "Let's learn adjectives!",
    "desc": "big・small など、ようすを表すことばを覚えよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-03-09.jpg"
   },
   {
    "date": "2024-03-16",
    "theme": "Are you sleepy?",
    "desc": "ねむい・おなかすいたなど、今の状態を英語で。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-03-16.jpg"
   },
   {
    "date": "2024-03-23",
    "theme": "Plants",
    "desc": "植物の育ち方を英語で知ろう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2024-03-23.jpg"
   },
   {
    "date": "2024-03-30",
    "theme": "Wh - questions...",
    "desc": "what・where・who など、たずねる英語を練習しよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-03-30.jpg"
   },
   {
    "date": "2024-04-06",
    "theme": "What grade are you in?",
    "desc": "何年生？ 学年を英語で言ってみよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-04-06.jpg"
   },
   {
    "date": "2024-04-13",
    "theme": "My House",
    "desc": "おうちの中を英語で紹介しよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-04-13.jpg"
   },
   {
    "date": "2024-04-20",
    "theme": "Nouns",
    "desc": "身のまわりのものの名前を英語で言おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-04-20.jpg"
   },
   {
    "date": "2024-04-27",
    "theme": "Daily Calendar Chart",
    "desc": "日付・曜日・天気を英語で言う練習。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-04-27.jpg"
+  },
+  {
+   "date": "2024-05-11",
+   "theme": "Happy Mother's Day",
+   "desc": "",
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-05-11.jpg"
   },
   {
    "date": "2024-05-18",
    "theme": "Let's go to the amusement park!",
    "desc": "遊園地の乗りものを英語で言おう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2024-05-18.jpg"
   },
   {
    "date": "2024-05-25",
    "theme": "The Earth",
    "desc": "地球について英語で知ろう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2024-05-25.jpg"
   },
   {
    "date": "2024-06-01",
    "theme": "All about Frogs",
    "desc": "カエルの一生を英語で知ろう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2024-06-01.jpg"
   },
   {
    "date": "2024-06-08",
    "theme": "He and She",
    "desc": "he と she の使い分けを練習しよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-06-08.jpg"
   },
   {
    "date": "2024-06-15",
    "theme": "Balls",
    "desc": "いろいろなボールとスポーツを英語で。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2024-06-15.jpg"
   },
   {
    "date": "2024-06-22",
    "theme": "How to make a rainbow?",
    "desc": "にじはどうやってできるの？ かんたんな実験。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2024-06-22.jpg"
   },
   {
    "date": "2024-07-06",
    "theme": "BINGO Time!",
    "desc": "英単語でビンゴ！",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2024-07-06.jpg"
   },
   {
    "date": "2024-07-13",
    "theme": "TRANSPORTATION",
    "desc": "乗りものの英語を覚えよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-07-13.jpg"
   },
   {
    "date": "2024-07-20",
    "theme": "where do you want to go?",
    "desc": "行ってみたい場所を英語で話そう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-07-20.jpg"
   },
   {
    "date": "2024-07-27",
    "theme": "Rock, Paper, Scissors!",
    "desc": "英語でじゃんけん。いろいろな遊び方で。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2024-07-27.jpg"
   },
   {
    "date": "2024-08-03",
    "theme": "Playdough Time!!",
    "desc": "ねんどで作ったものを英語で紹介しよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2024-08-03.jpg"
+  },
+  {
+   "date": "2024-08-24",
+   "theme": "What did you do?",
+   "desc": "",
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-08-24.jpg"
   },
   {
    "date": "2024-08-31",
    "theme": "Stationary Goods",
    "desc": "文房具の名前を英語で言おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-08-31.jpg"
   },
   {
    "date": "2024-09-07",
    "theme": "I can be kind",
    "desc": "やさしくできることを英語で考えよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-09-07.jpg"
   },
   {
    "date": "2024-09-14",
    "theme": "My Town",
    "desc": "自分の町にあるものを英語で言おう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-09-14.jpg"
   },
   {
    "date": "2024-09-21",
    "theme": "Let's go to the restaurant!",
    "desc": "レストランで英語で注文してみよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2024-09-21.jpg"
   },
   {
    "date": "2024-09-28",
    "theme": "2D and 3D SHAPES",
    "desc": "いろいろな形を英語で言おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-09-28.jpg"
   },
   {
    "date": "2024-10-05",
    "theme": "I can ...",
    "desc": "できることを「I can ～」で言ってみよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-10-05.jpg"
   },
   {
    "date": "2024-10-12",
    "theme": "Board Game Fun!!",
    "desc": "英語のすごろくで遊ぼう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2024-10-12.jpg"
   },
   {
    "date": "2024-10-19",
    "theme": "Sight Words 1",
    "desc": "よく出る英単語を読む練習。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-10-19.jpg"
   },
   {
    "date": "2024-10-26",
    "theme": "Let's make doughnuts!",
    "desc": "ドーナツ作りを英語で楽しもう。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2024-10-26.jpg"
   },
   {
    "date": "2024-11-02",
    "theme": "The Solar System",
    "desc": "太陽系の星たちを英語で知ろう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2024-11-02.jpg"
   },
   {
    "date": "2024-11-09",
    "theme": "Greeting Actions",
    "desc": "あいさつのことばと動きを覚えよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2024-11-09.jpg"
   },
   {
    "date": "2024-11-16",
    "theme": "May I . . . ?",
    "desc": "「～してもいいですか？」を英語でたずねよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2024-11-16.jpg"
   },
   {
    "date": "2024-11-30",
    "theme": "Thanksgiving Day",
    "desc": "サンクスギビングについて知ろう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2024-11-30.jpg"
   },
   {
    "date": "2024-12-07",
    "theme": "Water Science Experiments",
    "desc": "水を使ったかんたんな実験。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2024-12-07.jpg"
   },
   {
    "date": "2024-12-14",
    "theme": "Animal Tracks",
    "desc": "足あとから、どの動物か当てよう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2024-12-14.jpg"
   },
   {
    "date": "2024-12-21",
    "theme": "Christmas Fun",
    "desc": "クリスマスのゲームと歌で楽しもう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2024-12-21.jpg"
   },
   {
    "date": "2025-01-04",
@@ -712,67 +997,78 @@
    "date": "2025-01-11",
    "theme": "2025 New Year Fun!!",
    "desc": "新年の目標を考えて、今年もいろいろなことにチャレンジしよう！",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2025-01-11.jpg"
   },
   {
    "date": "2025-01-18",
    "theme": "These are my gloves",
    "desc": "片方だけ見つからない手袋を、みんなで探そう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-01-18.jpg"
   },
   {
    "date": "2025-01-25",
    "theme": "Snowflake Life Cycle",
    "desc": "雪の結晶はひとつひとつ形がちがう。どうしてそんな形になるのかな？",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2025-01-25.jpg"
   },
   {
    "date": "2025-02-01",
    "theme": "How are you feeling?",
    "desc": "今の気持ちを「I feel ～」で言ってみよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2025-02-01.jpg"
   },
   {
    "date": "2025-02-08",
    "theme": "Heart Animals Crafts",
    "desc": "バレンタインにちなんで、ハートの形で動物を作る工作。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2025-02-08.jpg"
   },
   {
    "date": "2025-02-15",
    "theme": "Stretch a Sentence",
    "desc": "「だれが・どこで・いつ・なぜ・なにを」を組み立てて、文をのばしてみよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-02-15.jpg"
   },
   {
    "date": "2025-02-22",
    "theme": "BALLOON EXPERIMENT",
    "desc": "風船を使った実験。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2025-02-22.jpg"
   },
   {
    "date": "2025-03-01",
    "theme": "Short and Long Vowels",
    "desc": "a・e・i・o・u の音を中心に、発音の練習をたくさんするよ。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-03-01.jpg"
   },
   {
    "date": "2025-03-08",
    "theme": "All about me!!",
    "desc": "自分の好きなものについて、話したり答えたりしよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2025-03-08.jpg"
   },
   {
    "date": "2025-03-15",
    "theme": "Whose dog is it?",
    "desc": "「ぼくの」「きみの」を使って、犬の持ち主をたずねよう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2025-03-15.jpg"
   },
   {
    "date": "2025-03-22",
    "theme": "SALT EXPERIMENT",
    "desc": "塩と水や氷を使って、いろいろな実験をするよ。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2025-03-22.jpg"
   },
   {
    "date": "2025-03-29",
@@ -783,49 +1079,57 @@
    "date": "2025-04-05",
    "theme": "Easter Fun!!",
    "desc": "春の訪れをお祝いして、みんなでイースターを楽しもう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2025-04-05.jpg"
   },
   {
    "date": "2025-04-12",
    "theme": "go home / go to school",
    "desc": "「～に行く」の言い方を、go を使ってたくさん練習。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-04-12.jpg"
   },
   {
    "date": "2025-04-19",
    "theme": "Hair make up",
    "desc": "髪の毛を1本ずつ描いて、どんなヘアスタイルにするか考えよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2025-04-19.jpg"
   },
   {
    "date": "2025-04-26",
    "theme": "What am I ??",
    "desc": "「わたしはなんでしょう？」よく聞いて答えを考えるクイズ。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2025-04-26.jpg"
   },
   {
    "date": "2025-05-10",
    "theme": "Thank You Mom!",
    "desc": "ママへのメッセージを作って、ありがとうを伝えよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2025-05-10.jpg"
   },
   {
    "date": "2025-05-17",
    "theme": "big bigger biggest",
    "desc": "ものの大きさをくらべてみよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-05-17.jpg"
   },
   {
    "date": "2025-05-24",
    "theme": "Water Experiments vol.2",
    "desc": "ストロー・風船・水を使った実験。何が起こるかな？",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2025-05-24.jpg"
   },
   {
    "date": "2025-05-31",
    "theme": "My Daily Tasks",
    "desc": "朝から寝るまでにすることを考えて、デイリーチャートを作ろう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2025-05-31.jpg"
   },
   {
    "date": "2025-06-07",
@@ -834,26 +1138,59 @@
   },
   {
    "date": "2025-06-14",
-   "off": true,
-   "reason": "お休み"
+   "theme": "Thank You Dad!!",
+   "desc": "",
+   "tag": "家族・わたし",
+   "canva": "images/canva/2025-06-14.jpg"
   },
   {
    "date": "2025-06-21",
    "theme": "Insects",
    "desc": "虫たちの名前や特ちょうを調べよう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2025-06-21.jpg"
   },
   {
    "date": "2025-06-28",
    "theme": "Let's describe...!",
    "desc": "動物の気持ちや動きを、ことばでどう伝えるか考えよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2025-06-28.jpg"
+  },
+  {
+   "date": "2025-07-05",
+   "theme": "Tongue Twisters",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-07-05.jpg"
+  },
+  {
+   "date": "2025-07-12",
+   "theme": "Blending Sound Words",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-07-12.jpg"
+  },
+  {
+   "date": "2025-07-19",
+   "theme": "Summer Daily Schedule",
+   "desc": "",
+   "tag": "季節・行事",
+   "canva": "images/canva/2025-07-19.jpg"
+  },
+  {
+   "date": "2025-07-26",
+   "theme": "Thunder Storm Experiment",
+   "desc": "",
+   "tag": "実験",
+   "canva": "images/canva/2025-07-26.jpg"
   },
   {
    "date": "2025-08-02",
    "theme": "I love summer!",
    "desc": "暑い日が続くけど夏が大好き！ その気持ちを英語で話そう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2025-08-02.jpg"
   },
   {
    "date": "2025-08-09",
@@ -869,85 +1206,99 @@
    "date": "2025-08-23",
    "theme": "Where did you go?",
    "desc": "どこに行った？だれと何をした？ 英語で伝えよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2025-08-23.jpg"
   },
   {
    "date": "2025-08-30",
    "theme": "10 Golden Rules",
    "desc": "身の回りのルールや決まりごとを、英語で説明しよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2025-08-30.jpg"
   },
   {
    "date": "2025-09-06",
    "theme": "Animal Sound Quiz",
    "desc": "鳴き声だけで、どの動物か当てられるかな？",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2025-09-06.jpg"
   },
   {
    "date": "2025-09-13",
    "theme": "Color Experiment",
    "desc": "自分だけのオリジナルの色を作ってみよう。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2025-09-13.jpg"
   },
   {
    "date": "2025-09-20",
    "theme": "Conversation Relay",
    "desc": "会話をリレーでつないで、たくさん質問しよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2025-09-20.jpg"
   },
   {
    "date": "2025-09-27",
    "theme": "The Moon",
    "desc": "月の形や光が変わるようすを観察しよう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2025-09-27.jpg"
   },
   {
    "date": "2025-10-04",
    "theme": "Drawing Time!!",
    "desc": "お話に合わせて絵を描こう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2025-10-04.jpg"
   },
   {
    "date": "2025-10-11",
    "theme": "IN, ON, UNDER...",
    "desc": "ものがどこにあるかを英語で伝える練習。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-10-11.jpg"
   },
   {
    "date": "2025-10-18",
    "theme": "Simple STEM Activities",
    "desc": "身近なもので、みんなでタワーやビルを作ってみよう。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2025-10-18.jpg"
   },
   {
    "date": "2025-10-25",
    "theme": "Fun! Game! Fun!",
    "desc": "いろいろなゲームで楽しもう！",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2025-10-25.jpg"
   },
   {
    "date": "2025-11-01",
    "theme": "Read stories",
    "desc": "みんなでお話を声に出して読もう。どこまで読めるかな？",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-11-01.jpg"
   },
   {
    "date": "2025-11-08",
    "theme": "Affirmation Poster",
    "desc": "自分をほめる言葉を書いたポスターを作ろう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2025-11-08.jpg"
   },
   {
    "date": "2025-11-15",
    "theme": "This is a dog. / These are dogs.",
    "desc": "1つと2つ以上で、言い方がどう変わるか学ぼう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2025-11-15.jpg"
   },
   {
    "date": "2025-11-22",
    "theme": "Thankful Heart",
    "desc": "だれに、どんな「ありがとう」を伝えるか考えよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2025-11-22.jpg"
   },
   {
    "date": "2025-11-29",
@@ -958,19 +1309,22 @@
    "date": "2025-12-06",
    "theme": "Story Time",
    "desc": "知っている物語を絵にして表現しよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2025-12-06.jpg"
   },
   {
    "date": "2025-12-13",
    "theme": "Let's have a conversation!",
    "desc": "飼ってみたいペットや得意なことを英語で話そう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2025-12-13.jpg"
   },
   {
    "date": "2025-12-20",
    "theme": "CHRISTMAS BINGO!!",
    "desc": "クリスマスの英単語でビンゴ！",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2025-12-20.jpg"
   },
   {
    "date": "2025-12-27",
@@ -986,91 +1340,113 @@
    "date": "2026-01-10",
    "theme": "2026 I will ~.",
    "desc": "2026年の目標を、みんなでシェアしよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-01-10.jpg"
   },
   {
    "date": "2026-01-17",
    "theme": "Battery Experience",
    "desc": "電池の実験。スプーンや水を使うとどうなるかな？",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2026-01-17.jpg"
   },
   {
    "date": "2026-01-24",
    "theme": "Word Families",
    "desc": "知っている単語を、音のなかまでグループ分けしよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-01-24.jpg"
   },
   {
    "date": "2026-01-31",
    "theme": "Winter",
    "desc": "冬について英語で文を書いてみよう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-01-31.jpg"
   },
   {
    "date": "2026-02-07",
    "theme": "Which one do you like?",
    "desc": "「どっちが好き？」を英語でたずね合おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-02-07.jpg"
   },
   {
    "date": "2026-02-14",
    "theme": "Valentine's Day",
    "desc": "バレンタインに、大好きな人へ英語でメッセージ。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-02-14.jpg"
   },
   {
    "date": "2026-02-21",
    "theme": "Dental Health",
    "desc": "歯を大切にする英語を覚えよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2026-02-21.jpg"
   },
   {
    "date": "2026-02-28",
    "theme": "I can write a sentence.",
    "desc": "英語の文を自分で書いてみよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-02-28.jpg"
+  },
+  {
+   "date": "2026-03-07",
+   "theme": "My Room",
+   "desc": "",
+   "tag": "家族・わたし",
+   "canva": "images/canva/2026-03-07.jpg"
   },
   {
    "date": "2026-03-14",
    "theme": "Past tense",
    "desc": "「～した」の言い方を練習しよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-03-14.jpg"
   },
   {
    "date": "2026-03-21",
    "theme": "Butterfly Life Cycle",
    "desc": "たまごからちょうちょになるまでを英語で。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2026-03-21.jpg"
   },
   {
    "date": "2026-03-28",
    "theme": "Describing Pictures",
    "desc": "絵を見て、何が見えるか英語で説明しよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-03-28.jpg"
   },
   {
    "date": "2026-04-04",
    "theme": "Let's enjoy Easter!",
    "desc": "イースターといえば何？ アクションゲームでもりあがろう！",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-04-04.jpg"
   },
   {
    "date": "2026-04-11",
    "theme": "2026 Back to School",
    "desc": "新学年おめでとう！ 学校で使う物や言葉でビンゴ。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-04-11.jpg"
   },
   {
    "date": "2026-04-18",
    "theme": "Good Manners",
    "desc": "良い行動ってどんなこと？ みんなで考えよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2026-04-18.jpg"
   },
   {
    "date": "2026-04-25",
    "theme": "Let's enjoy Games!",
    "desc": "ゲームやアクティビティを楽しもう！",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2026-04-25.jpg"
   },
   {
    "date": "2026-05-02",
@@ -1081,73 +1457,92 @@
    "date": "2026-05-09",
    "theme": "You are the Best Mom!!",
    "desc": "ママの好きなものを、ママに聞いてみよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2026-05-09.jpg"
   },
   {
    "date": "2026-05-16",
    "theme": "Nature Words",
    "desc": "山・森・木・草・水など、自然のことばを英語で言おう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2026-05-16.jpg"
   },
   {
    "date": "2026-05-23",
    "theme": "Cooking Recipe",
    "desc": "カレーライスの作り方を、みんなでレシピにしよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2026-05-23.jpg"
   },
   {
    "date": "2026-05-30",
    "theme": "AM, IS, ARE!",
    "desc": "よく使う言葉を出し合って、表にまとめよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-05-30.jpg"
   },
   {
    "date": "2026-06-06",
    "theme": "Let's sing Do-Re-Mi !",
    "desc": "ドレミの歌をみんなで歌って、発声の練習。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2026-06-06.jpg"
   },
   {
    "date": "2026-06-13",
    "theme": "Colorful Food Garden",
    "desc": "野菜や果物がいっぱいの庭を作ろう。",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2026-06-13.jpg"
   },
   {
    "date": "2026-06-20",
    "theme": "You are the Best Dad !!",
    "desc": "パパの好きなものを考えて、パパに質問してみよう。",
-   "tag": "家族・わたし"
+   "tag": "家族・わたし",
+   "canva": "images/canva/2026-06-20.jpg"
   },
   {
    "date": "2026-06-27",
    "theme": "What Makes the Wind Blow?",
    "desc": "風はどこから吹いてくる？ 見えないのに感じるのはなぜ？",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2026-06-27.jpg"
+  },
+  {
+   "date": "2026-07-04",
+   "theme": "Simple Questions",
+   "desc": "",
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-07-04.jpg"
   },
   {
    "date": "2026-07-11",
    "theme": "How to Make a Sandwich?",
    "desc": "サンドイッチの作り方を英語で順番に言おう。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2026-07-11.jpg"
   },
   {
    "date": "2026-07-18",
    "theme": "Summer Vacation Calendar",
    "desc": "夏休みの予定を英語でカレンダーに書こう。",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-07-18.jpg"
   },
   {
    "date": "2026-07-25",
    "theme": "Sight Words Fun",
    "desc": "よく出る英単語をゲームで覚えよう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-07-25.jpg"
   },
   {
    "date": "2026-08-01",
    "theme": "Beach Fun",
    "desc": "海大好き！ 海に何を持っていく？",
-   "tag": "季節・行事"
+   "tag": "季節・行事",
+   "canva": "images/canva/2026-08-01.jpg"
   },
   {
    "date": "2026-08-08",
@@ -1163,13 +1558,15 @@
    "date": "2026-08-22",
    "theme": "Nature Walk",
    "desc": "山・川・海には何がある？ 探してみよう！",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2026-08-22.jpg"
   },
   {
    "date": "2026-08-29",
    "theme": "PREPOSITIONS",
    "desc": "グミのクマさんはどこにいる？ 場所を英語で教えてね。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-08-29.jpg"
   },
   {
    "date": "2026-09-05",
@@ -1180,43 +1577,50 @@
    "date": "2026-09-12",
    "theme": "Taste of Foods",
    "desc": "レモンはすっぱい！ 食べ物の味を英語で表現しよう。",
-   "tag": "ゲーム・あそび"
+   "tag": "ゲーム・あそび",
+   "canva": "images/canva/2026-09-12.jpg"
   },
   {
    "date": "2026-09-19",
    "theme": "Word Chain Fun",
    "desc": "英語しりとりで、知っている単語を出し合おう。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-09-19.jpg"
   },
   {
    "date": "2026-09-26",
    "theme": "What can we see in the SKY",
    "desc": "空を見上げたら何が見える？",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2026-09-26.jpg"
   },
   {
    "date": "2026-10-03",
    "theme": "Pet Animals",
    "desc": "ペットになる動物は？ どんなペットを飼いたい？",
-   "tag": "自然・いきもの"
+   "tag": "自然・いきもの",
+   "canva": "images/canva/2026-10-03.jpg"
   },
   {
    "date": "2026-10-10",
    "theme": "Energy Bites",
    "desc": "好きなおやつを話し合って、ヘルシーなエナジーボールを作ろう。",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2026-10-10.jpg"
   },
   {
    "date": "2026-10-17",
    "theme": "Simple Sentences",
    "desc": "単語を並べて、文を作ることにチャレンジ。",
-   "tag": "ことば・文法"
+   "tag": "ことば・文法",
+   "canva": "images/canva/2026-10-17.jpg"
   },
   {
    "date": "2026-10-24",
    "theme": "Sink or Float",
    "desc": "水の実験。浮くものと沈むもののちがいは？",
-   "tag": "実験"
+   "tag": "実験",
+   "canva": "images/canva/2026-10-24.jpg"
   },
   {
    "date": "2026-10-31",

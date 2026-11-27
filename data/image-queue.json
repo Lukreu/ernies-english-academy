@@ -1,3 +1,8 @@
 {
- "items": []
+ "items": [
+  {
+   "path": "images/canva_src/DAHY2AdRMvQ.png",
+   "url": "https://export-download.canva.com/dRMvQ/DAHY2AdRMvQ/-1/0-3444651324239193386.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T012225Z&X-Amz-Expires=61251&X-Amz-Signature=1dd5c9cb51468bdc9681baed856351a8ea84dbeeb4f5330aeffe04c5bf97900a&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2018%3A23%3A16%20GMT"
+  }
+ ]
 }
