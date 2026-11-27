@@ -141,15 +141,13 @@ function daysTo(d){return Math.round((new Date(d+"T00:00:00+09:00")-new Date(tod
 function renderPast(){
  var past=ALL.filter(function(e){return e.date<today && !e.off && (!state.tag||e.tag===state.tag);}).reverse();
  var groups={},order=[];
- var t0=today.split("-"),cy=Number(t0[0]),cm=Number(t0[1])-11;if(cm<1){cm+=12;cy-=1;}
- var cutoff=cy+"-"+(cm<10?"0":"")+cm;
- past.forEach(function(e){var m=e.date.slice(0,7),k=m>=cutoff?m:e.date.slice(0,4);if(!groups[k]){groups[k]=[];order.push(k);}groups[k].push(e);});
+ var cy=today.slice(0,4);
+ past.forEach(function(e){var m=e.date.slice(0,7),k=e.date.slice(0,4)===cy?m:e.date.slice(0,4);if(!groups[k]){groups[k]=[];order.push(k);}groups[k].push(e);});
  function label(k){var p=k.split("-");if(p.length>1)return Number(p[0])+'年'+Number(p[1])+'月のレッスン';
-  var ms=groups[k].map(function(e){return Number(e.date.slice(5,7));});var lo=Math.min.apply(null,ms),hi=Math.max.apply(null,ms);
-  return k+'年のレッスン'+((lo>1||hi<12)?'（'+lo+'〜'+hi+'月）':'');}
+  return k+'年のレッスン';}
  document.getElementById("past").innerHTML=order.map(function(k,gi){
   return '<details'+((gi<2&&k.length>4||state.tag)?' open':'')+' style="border-top:2px solid #F1EBDD;padding:16px 0">'+
-  '<summary style="cursor:pointer;list-style:none;font-family:\'Zen Maru Gothic\',sans-serif;font-weight:900;font-size:20px">'+label(k)+'<span style="font-size:14px;font-weight:500;color:#4B5563">（'+groups[k].length+'回）▼</span></summary>'+
+  '<summary style="cursor:pointer;list-style:none;font-family:\'Zen Maru Gothic\',sans-serif;font-weight:900;font-size:20px">'+label(k)+'<span style="font-size:14px;font-weight:500;color:#4B5563"> ▼</span></summary>'+
   '<div style="margin-top:16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px">'+groups[k].map(function(e){return card(e,false);}).join("")+'</div></details>';}).join("") || '<p>このジャンルのレッスンはまだありません。</p>';
  var btns=document.querySelectorAll("#filters .tagbtn");
  for(var i=0;i<btns.length;i++){btns[i].setAttribute("aria-pressed",String((btns[i].getAttribute("data-tag")||null)===state.tag));}
