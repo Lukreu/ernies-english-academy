@@ -1,3 +1,24 @@
 {
- "items": []
+ "items": [
+  {
+   "path": "images/canva_src/DAG8AFGUr_o.png",
+   "url": "https://export-download.canva.com/GUr_o/DAG8AFGUr_o/-1/0-3932165979904700394.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T040323Z&X-Amz-Expires=50664&X-Amz-Signature=357333f16efc38ec737a4f55d3ac5735f8cc7a454bee2a027f39451d0e606f8c&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2018%3A07%3A47%20GMT"
+  },
+  {
+   "path": "images/canva_src/DAGZsLNzKAU.png",
+   "url": "https://export-download.canva.com/NzKAU/DAGZsLNzKAU/-1/0-1718646767005583093.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T090628Z&X-Amz-Expires=31768&X-Amz-Signature=823c61e84a8d21b63ddddbaccbd34717b2d9c078f9c3678865be6b52bcf69c37&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2017%3A55%3A56%20GMT"
+  },
+  {
+   "path": "images/canva_src/DAF1tabC5_o.png",
+   "url": "https://export-download.canva.com/bC5_o/DAF1tabC5_o/-1/0-3346698032178913817.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T094247Z&X-Amz-Expires=31129&X-Amz-Signature=a2d3134bc6a9d38acd8107e352b81e64516b5b54087f331ff872bd51efb57937&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2018%3A21%3A36%20GMT"
+  },
+  {
+   "path": "images/canva_src/DAFNG7kTc4Q.png",
+   "url": "https://export-download.canva.com/kTc4Q/DAFNG7kTc4Q/-1/0-4295831650804733286.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T215331Z&X-Amz-Expires=72534&X-Amz-Signature=948657be965afcfb208d599cdb9b0a65219f8181858ec4f174206de4868057ff&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2018%3A02%3A25%20GMT"
+  },
+  {
+   "path": "images/canva_src/DAE0pwe3OKA.png",
+   "url": "https://export-download.canva.com/e3OKA/DAE0pwe3OKA/-1/0-33174604223495367.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH7IWBH45X%2F20261127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261127T110915Z&X-Amz-Expires=22732&X-Amz-Signature=af31730262473a7172702378fede076757d755654c7daa02fd16574ed7d07e89&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2027%20Nov%202026%2017%3A28%3A07%20GMT"
+  }
+ ]
 }
